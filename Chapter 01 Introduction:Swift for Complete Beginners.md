@@ -45,3 +45,17 @@ nothingInBrain = true
 
 ### Using type annotations wisely
 
+This book refer us to use:
+
+```swift
+var name = "Micheal"
+```
+
+instead of:
+
+```swift
+var name: String
+name = "Micheal"
+```
+
+Because the first one is simple.
