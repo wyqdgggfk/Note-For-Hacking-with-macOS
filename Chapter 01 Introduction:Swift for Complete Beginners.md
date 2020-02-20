@@ -16,10 +16,10 @@ let anotherName = "Tomi"//Can't change anotherName's value
 ## Types of Data
 
 ```swift
-var name: String
+var name: String//declare a variable to be a string
 name = "Micheal"
 
-var age: Int
+var age: Int//declare a variable to be an integer
 age = 20
 ```
 
