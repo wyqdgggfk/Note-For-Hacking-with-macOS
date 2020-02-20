@@ -43,3 +43,5 @@ var nothingInBrain: Bool
 nothingInBrain = true
 ```
 
+### Using type annotations wisely
+
