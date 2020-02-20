@@ -15,3 +15,11 @@ let anotherName = "Tomi"//Can't change anotherName's value
 
 ## Types of Data
 
+```swift
+var name: String
+name = "Micheal"
+
+var age: Int
+age = 20
+```
+
