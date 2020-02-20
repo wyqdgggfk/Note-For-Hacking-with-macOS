@@ -5,3 +5,9 @@ let anotherName = "Tomi"//Can't change anotherName's value
 
 var age:Int
 age = 20
+
+var latitude: Double
+latitude = 36.166667
+
+var longitude: Float
+longitude = -87.323
