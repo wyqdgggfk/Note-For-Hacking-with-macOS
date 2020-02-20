@@ -58,4 +58,9 @@ var name: String
 name = "Micheal"
 ```
 
-Because the first one is simple.
+Because the first one is simple.And also we can define a variable like this:
+
+```swift
+var name: String = "Micheal"
+```
+
