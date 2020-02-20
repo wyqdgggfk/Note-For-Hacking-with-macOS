@@ -11,3 +11,9 @@ latitude = 36.166689767
 
 var longitude: Float
 longitude = -87.32368686468
+
+var stayOutTooLate: Bool
+stayOutTooLate = true
+
+var nothingInBrain: Bool
+nothingInBrain = true
