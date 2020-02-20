@@ -23,3 +23,23 @@ var age: Int//declare a variable to be an integer
 age = 20
 ```
 
+### Float and Double
+
+```swift
+var latitude: Double
+latitude = 36.166689767
+
+var longitude: Float
+longitude = -87.32368686468
+```
+
+### Boolean
+
+```swift
+var stayOutTooLate: Bool
+stayOutTooLate = true
+
+var nothingInBrain: Bool
+nothingInBrain = true
+```
+
