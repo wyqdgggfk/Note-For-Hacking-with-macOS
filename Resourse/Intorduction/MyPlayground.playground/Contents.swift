@@ -7,7 +7,7 @@ var age:Int
 age = 20
 
 var latitude: Double
-latitude = 36.166667
+latitude = 36.166689767
 
 var longitude: Float
-longitude = -87.323
+longitude = -87.32368686468
