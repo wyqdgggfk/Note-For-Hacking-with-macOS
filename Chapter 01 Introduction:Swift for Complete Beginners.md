@@ -13,3 +13,5 @@ name = "Jack" //Change name from Micheal to Jack
 let anotherName = "Tomi"//Can't change anotherName's value
 ```
 
+## Types of Data
+
