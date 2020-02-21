@@ -100,7 +100,21 @@ var string3 = "Tim"
 
 ## Arrays
 
+```swift
+// Define a string array
+var songs = ["Shake your hand","You Belong with Me","Back to December"] //First way to define a string array
+var singers:[String] = ["Taylor Swift","Justin Bieber","Charlie Puth"] //Second way to define a string array
+//How to create an array with multiple kinds of value types
+var multipleArray:[Any] = ["Computer",43,true]
+```
 
+### Creating arrays
+
+We can create an empty array and fill in it later
+
+```swift
+
+```
 
 
 
