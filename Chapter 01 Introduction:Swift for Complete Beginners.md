@@ -125,7 +125,11 @@ songArray.insert("Alice in Wonderland", at: 0)
 Use + to combine to array together
 
 ```swift
-
+//combine to array together
+var nameList1 = ["Alice","Bonnie"]
+var nameList2 = ["Christina","David"]
+var nameListTotal = nameList1 + nameList2
+nameListTotal += ["Sharon","Mia"]
 ```
 
 
