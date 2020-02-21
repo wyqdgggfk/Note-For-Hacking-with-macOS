@@ -68,6 +68,21 @@ var name: String = "Micheal"
 
 Operators mean +-*÷
 
+```swift
+/*
+ Let's make some operator
+ */
+var a = 1.1
+var b = 2.2
+var c = a + b
+/*
+ The operator + can combine two string
+ */
+var string1 = "Hello"
+var string2 = "World"
+var helloWorld = string1 + " my " + string2
+```
+
 
 
 
