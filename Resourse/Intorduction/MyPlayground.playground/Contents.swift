@@ -34,3 +34,6 @@ var helloWorld = string1 + " my " + string2
 var someNum = 20
 someNum > 19 //This will result in true
 
+//Insert or append a string into another
+var string3 = "Tim"
+"His name is \(string3)"
