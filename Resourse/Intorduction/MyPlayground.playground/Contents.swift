@@ -45,6 +45,6 @@ var singers:[String] = ["Taylor Swift","Justin Bieber","Charlie Puth"] //Second 
 var multipleArray:[Any] = ["Computer",43,true]
 
 //create an empty array and fill in it
-var songList: [String]
+var songList: [String] = []
 songList[0] = "You Raise Me Up"
 
