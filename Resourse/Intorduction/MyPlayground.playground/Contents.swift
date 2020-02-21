@@ -31,3 +31,6 @@ var string1 = "Hello"
 var string2 = "World"
 var helloWorld = string1 + " my " + string2
 
+var someNum = 20
+someNum > 19 //This will result in true
+
