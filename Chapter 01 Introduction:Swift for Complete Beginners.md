@@ -132,6 +132,15 @@ var nameListTotal = nameList1 + nameList2
 nameListTotal += ["Sharon","Mia"]
 ```
 
+## Extensions
+
+Pay attention to what extension can do,it's vary useful when you want redefine some function of the basic predefined types,such as Int,String,Array,Dictionary.
+
+```swift
+var testNum = 5
+testNum.plusOne() //result in 6
+```
+
 
 
 
