@@ -113,10 +113,20 @@ var multipleArray:[Any] = ["Computer",43,true]
 We can create an empty array and fill in it later
 
 ```swift
-
+//create an empty array and fill in it with value
+var songList: [String] = []
+var songArray = [String]()
+songList.append(contentsOf: ["Someone Like You"])
+songArray.insert("Alice in Wonderland", at: 0)
 ```
 
+### Array operators
 
+Use + to combine to array together
+
+```swift
+
+```
 
 
 
