@@ -47,3 +47,5 @@ var multipleArray:[Any] = ["Computer",43,true]
 //create an empty array and fill in it with value
 var songList: [String] = []
 var songArray = [String]()
+songList.append(contentsOf: ["Someone Like You"])
+songArray.insert("Alice in Wonderland", at: 0)
