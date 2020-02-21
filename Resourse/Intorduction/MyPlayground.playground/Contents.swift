@@ -44,5 +44,5 @@ var singers:[String] = ["Taylor Swift","Justin Bieber","Charlie Puth"] //Second 
 //How to create an array with multiple kinds of value types
 var multipleArray:[Any] = ["Computer",43,true]
 
-//create an empty array and fill in it with values
+//create an empty array and fill in it with value
 var songList: [String] = []
