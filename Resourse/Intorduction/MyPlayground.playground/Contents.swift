@@ -56,4 +56,3 @@ var nameList2 = ["Christina","David"]
 var nameListTotal = nameList1 + nameList2
 nameListTotal += ["Sharon","Mia"]
 
-
