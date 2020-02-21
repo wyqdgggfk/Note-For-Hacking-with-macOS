@@ -85,6 +85,11 @@ var helloWorld = string1 + " my " + string2
 
 ### Comparison operators
 
+```swift
+var someNum = 20
+someNum > 19 //This will result in true
+```
+
 
 
 
