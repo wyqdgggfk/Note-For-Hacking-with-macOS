@@ -67,3 +67,42 @@ var name: String = "Micheal"
 ## Operators
 
 Operators mean +-*÷
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
