@@ -46,3 +46,4 @@ var multipleArray:[Any] = ["Computer",43,true]
 
 //create an empty array and fill in it with value
 var songList: [String] = []
+var songArray = [String]()
