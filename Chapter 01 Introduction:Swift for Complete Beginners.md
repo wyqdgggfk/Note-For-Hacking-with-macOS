@@ -98,6 +98,8 @@ var string3 = "Tim"
 "His name is \(string3)"
 ```
 
+## Arrays
+
 
 
 
