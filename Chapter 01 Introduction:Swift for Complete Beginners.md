@@ -92,6 +92,12 @@ someNum > 19 //This will result in true
 
 ## String interpolation
 
+```swift
+//Insert or append a string into another
+var string3 = "Tim"
+"His name is \(string3)"
+```
+
 
 
 
