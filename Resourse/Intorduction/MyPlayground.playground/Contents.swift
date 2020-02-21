@@ -56,3 +56,16 @@ var nameList2 = ["Christina","David"]
 var nameListTotal = nameList1 + nameList2
 nameListTotal += ["Sharon","Mia"]
 
+let vw = UIView()
+UIView.animate(withDuration: 0.5, animations: {
+    vw.alpha = 0
+})
+
+extension Int {
+    func plusOne() -> Int {
+        return self + 1
+    }
+}
+var testNum = 5
+testNum.plusOne() //result in 6
+
