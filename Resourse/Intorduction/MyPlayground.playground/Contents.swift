@@ -37,3 +37,8 @@ someNum > 19 //This will result in true
 //Insert or append a string into another
 var string3 = "Tim"
 "His name is \(string3)"
+
+// Define a string array
+var songs = ["Shake your hand","You Belong with Me","Back to December"] //First way to define a string array
+var singers:[String] = ["Taylor Swift","Justin Bieber","Charlie Puth"] //Second way to define a string array
+
