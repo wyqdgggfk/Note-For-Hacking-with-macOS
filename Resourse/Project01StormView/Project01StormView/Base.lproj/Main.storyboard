@@ -706,7 +706,7 @@
             <objects>
                 <splitViewController id="VxF-z1-NuR" sceneMemberID="viewController">
                     <splitViewItems>
-                        <splitViewItem id="RCR-GJ-3lO"/>
+                        <splitViewItem holdingPriority="260" id="RCR-GJ-3lO"/>
                         <splitViewItem id="mGT-VL-k4O"/>
                     </splitViewItems>
                     <splitView key="splitView" dividerStyle="thin" vertical="YES" id="C6O-Zh-1Sf">
