@@ -731,7 +731,7 @@
             <objects>
                 <viewController id="WAd-zg-Pey" customClass="SourceViewController" customModule="Project01StormView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="XRT-fb-bqm">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTO-Fx-dgd">
