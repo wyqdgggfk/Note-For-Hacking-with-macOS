@@ -782,6 +782,10 @@
                                                     </prototypeCellViews>
                                                 </tableColumn>
                                             </tableColumns>
+                                            <connections>
+                                                <outlet property="dataSource" destination="WAd-zg-Pey" id="IR6-aW-9qR"/>
+                                                <outlet property="delegate" destination="WAd-zg-Pey" id="64c-4a-OFN"/>
+                                            </connections>
                                         </tableView>
                                     </subviews>
                                     <nil key="backgroundColor"/>
@@ -809,6 +813,13 @@
                     <view key="view" id="MwH-VP-jLe">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kcu-a9-AsF">
+                                <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="Xgm-JL-SRK"/>
+                            </imageView>
+                        </subviews>
                     </view>
                 </viewController>
                 <customObject id="qG2-tZ-bYs" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
