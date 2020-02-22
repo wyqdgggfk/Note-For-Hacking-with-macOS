@@ -824,6 +824,9 @@
                             </imageView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="kcu-a9-AsF" id="SCx-iF-4g2"/>
+                    </connections>
                 </viewController>
                 <customObject id="qG2-tZ-bYs" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
