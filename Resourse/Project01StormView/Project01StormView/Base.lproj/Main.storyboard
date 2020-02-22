@@ -726,10 +726,10 @@
             </objects>
             <point key="canvasLocation" x="76" y="734"/>
         </scene>
-        <!--View Controller-->
+        <!--Source View Controller-->
         <scene sceneID="vNR-Fw-Vk6">
             <objects>
-                <viewController id="WAd-zg-Pey" sceneMemberID="viewController">
+                <viewController id="WAd-zg-Pey" customClass="SourceViewController" customModule="Project01StormView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="XRT-fb-bqm">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -739,10 +739,10 @@
             </objects>
             <point key="canvasLocation" x="717" y="548"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="ffc-bq-KIr">
             <objects>
-                <viewController id="Ida-b4-Ngv" sceneMemberID="viewController">
+                <viewController id="Ida-b4-Ngv" customClass="DetailViewController" customModule="Project01StormView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="MwH-VP-jLe">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
