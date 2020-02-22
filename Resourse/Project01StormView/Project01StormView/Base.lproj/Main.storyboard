@@ -819,7 +819,7 @@
                 </viewController>
                 <customObject id="hub-hz-Krd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="785" y="557"/>
+            <point key="canvasLocation" x="685" y="544"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="ffc-bq-KIr">
