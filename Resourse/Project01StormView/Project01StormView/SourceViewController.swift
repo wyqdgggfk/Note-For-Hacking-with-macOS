@@ -15,5 +15,7 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         super.viewDidLoad()
         // Do view setup here.
     }
-    
+    func numberOfRows(in tableView: NSTableView) -> Int {
+        return 100
+    }
 }
