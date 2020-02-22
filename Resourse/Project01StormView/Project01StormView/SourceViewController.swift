@@ -36,6 +36,7 @@ class SourceViewController: NSViewController, NSTableViewDataSource, NSTableView
         vw.textField?.stringValue = pictures[row]
         return vw
     }
+    // The code below make detail view shows selected row of source view
     func tableViewSelectionDidChange(_ notification: Notification) {
         guard tableView.selectedRow != -1 else { return }
         guard let splitVC = parent as? NSSplitViewController else { return }
