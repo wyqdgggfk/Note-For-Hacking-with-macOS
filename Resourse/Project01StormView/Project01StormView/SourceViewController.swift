@@ -17,4 +17,12 @@ class SourceViewController: NSViewController, NSTableViewDataSource, NSTableView
     func numberOfRows(in tableView: NSTableView) -> Int {
         return 100
     }
+    // The code below define string value of every tableview cell
+    func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
+        guard let vw = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else {
+            return nil
+        }
+        vw.textField?.stringValue = "Hello World"
+        return vw
+    }
 }
