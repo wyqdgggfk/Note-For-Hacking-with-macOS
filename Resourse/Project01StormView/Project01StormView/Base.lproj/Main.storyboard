@@ -734,9 +734,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="386" height="302"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTO-Fx-dgd">
+                            <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTO-Fx-dgd">
                                 <rect key="frame" x="0.0" y="0.0" width="386" height="302"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <clipView key="contentView" drawsBackground="NO" id="nVg-UL-NmZ">
                                     <rect key="frame" x="1" y="1" width="384" height="300"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -768,7 +767,7 @@
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="eGc-Lb-od9">
                                                                     <rect key="frame" x="0.0" y="0.0" width="381" height="17"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="17" id="ijA-Yv-1Hl"/>
+                                                                        <constraint firstAttribute="height" constant="17" id="LqH-HF-sph"/>
                                                                     </constraints>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Table View Cell" id="SxN-LE-OOH">
                                                                         <font key="font" metaFont="system"/>
@@ -778,9 +777,9 @@
                                                                 </textField>
                                                             </subviews>
                                                             <constraints>
-                                                                <constraint firstItem="eGc-Lb-od9" firstAttribute="centerY" secondItem="e9l-tF-OHZ" secondAttribute="centerY" id="7pc-Ww-ned"/>
-                                                                <constraint firstItem="eGc-Lb-od9" firstAttribute="centerX" secondItem="e9l-tF-OHZ" secondAttribute="centerX" id="Fvu-aN-NNK"/>
-                                                                <constraint firstItem="eGc-Lb-od9" firstAttribute="leading" secondItem="e9l-tF-OHZ" secondAttribute="leading" constant="2" id="K0h-dp-UJo"/>
+                                                                <constraint firstItem="eGc-Lb-od9" firstAttribute="centerX" secondItem="e9l-tF-OHZ" secondAttribute="centerX" id="IBr-2i-Fcf"/>
+                                                                <constraint firstItem="eGc-Lb-od9" firstAttribute="centerY" secondItem="e9l-tF-OHZ" secondAttribute="centerY" id="Wgk-VH-K2S"/>
+                                                                <constraint firstItem="eGc-Lb-od9" firstAttribute="leading" secondItem="e9l-tF-OHZ" secondAttribute="leading" constant="2" id="wq3-Ju-2gG"/>
                                                             </constraints>
                                                             <connections>
                                                                 <outlet property="textField" destination="eGc-Lb-od9" id="u7q-bJ-78d"/>
@@ -807,6 +806,12 @@
                                 </scroller>
                             </scrollView>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="FTO-Fx-dgd" firstAttribute="leading" secondItem="XRT-fb-bqm" secondAttribute="leading" id="AOU-iD-Agb"/>
+                            <constraint firstAttribute="bottom" secondItem="FTO-Fx-dgd" secondAttribute="bottom" id="GZB-5R-ZDD"/>
+                            <constraint firstAttribute="trailing" secondItem="FTO-Fx-dgd" secondAttribute="trailing" id="jMz-ke-rdm"/>
+                            <constraint firstItem="FTO-Fx-dgd" firstAttribute="top" secondItem="XRT-fb-bqm" secondAttribute="top" id="kb7-Wc-wDg"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="tableView" destination="d9i-L3-qI2" id="HCQ-kW-sI2"/>
