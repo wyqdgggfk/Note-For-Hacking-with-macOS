@@ -11,6 +11,8 @@ import Cocoa
 class SourceViewController: NSViewController, NSTableViewDataSource, NSTableViewDelegate {
 
     @IBOutlet var tableView: NSTableView!
+    var pictures = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
