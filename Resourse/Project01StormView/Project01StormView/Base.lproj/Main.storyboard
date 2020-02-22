@@ -735,7 +735,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTO-Fx-dgd">
-                                <rect key="frame" x="20" y="26" width="410" height="254"/>
+                                <rect key="frame" x="0.0" y="46" width="410" height="254"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <clipView key="contentView" ambiguous="YES" id="nVg-UL-NmZ">
                                     <rect key="frame" x="1" y="0.0" width="408" height="253"/>
