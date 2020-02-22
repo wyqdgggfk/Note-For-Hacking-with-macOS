@@ -24,6 +24,7 @@
 		96F65B862400368A00CAACA5 /* nssl0035.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96F65B7A2400368A00CAACA5 /* nssl0035.jpg */; };
 		96F65B872400368A00CAACA5 /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96F65B7B2400368A00CAACA5 /* nssl0034.jpg */; };
 		96F65B892400ECC900CAACA5 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F65B882400ECC900CAACA5 /* SourceViewController.swift */; };
+		96F65B8B2400EFFC00CAACA5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F65B8A2400EFFC00CAACA5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		96F65B7A2400368A00CAACA5 /* nssl0035.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0035.jpg; sourceTree = "<group>"; };
 		96F65B7B2400368A00CAACA5 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 		96F65B882400ECC900CAACA5 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
+		96F65B8A2400EFFC00CAACA5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				969048EB2400234C0078C236 /* ViewController.swift */,
 				969048ED2400234E0078C236 /* Assets.xcassets */,
 				969048EF2400234E0078C236 /* Main.storyboard */,
+				96F65B8A2400EFFC00CAACA5 /* DetailViewController.swift */,
 				96F65B882400ECC900CAACA5 /* SourceViewController.swift */,
 				969048F22400234E0078C236 /* Info.plist */,
 				96F65B6F2400368A00CAACA5 /* Content */,
@@ -195,6 +198,7 @@
 				969048EC2400234C0078C236 /* ViewController.swift in Sources */,
 				969048EA2400234C0078C236 /* AppDelegate.swift in Sources */,
 				96F65B892400ECC900CAACA5 /* SourceViewController.swift in Sources */,
+				96F65B8B2400EFFC00CAACA5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
