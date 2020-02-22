@@ -15,17 +15,25 @@ class SourceViewController: NSViewController, NSTableViewDataSource, NSTableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let fm = FileManager.default // Init a FileManager object
+        let path = Bundle.main.resourcePath! // This Bundle.main refers to the bundle of the current app
+        let items = try! fm.contentsOfDirectory(atPath: path)
+        for item in items {
+            if item.hasPrefix("nssl") {
+                pictures.append(item)
+            }
+        }
     }
     // The code below defines how many table view cells will there be
     func numberOfRows(in tableView: NSTableView) -> Int {
-        return 100
+        return pictures.count
     }
     // The code below defines string value of every tableview cell
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
         guard let vw = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else {
             return nil
         }
-        vw.textField?.stringValue = "Hello World"
+        vw.textField?.stringValue = pictures[row]
         return vw
     }
 }
