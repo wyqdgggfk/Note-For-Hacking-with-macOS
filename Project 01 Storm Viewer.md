@@ -51,13 +51,15 @@ Finally, your Xcode interface will look like this:
 
 ![image-20200223164017871](https://tva1.sinaimg.cn/large/0082zybpgy1gc6fbvc046j31ek0u0ju9.jpg)
 
+- On the right top of your Xcode, there is an ＋ symbol,click it and xcode will show us a window to choose, and you can enter the keywords "split", please choose **Vertical Split View Controller** and drag it into the Interface Builder:
 
+![image-20200223164439848](https://tva1.sinaimg.cn/large/0082zybpgy1gc6fge023kj30k70f2wf7.jpg)
 
+​	then our Xcode looks like this:
 
+![image-20200223164818707](https://tva1.sinaimg.cn/large/0082zybpgy1gc6fk6vq6gj31fg0u0n0u.jpg)
 
-
-
-
+- Make connection between the Window Controller and Split View Controller. You can see the **Split View Controller** in the **Document Outline**,
 
 
 
