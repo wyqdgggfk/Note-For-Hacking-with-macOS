@@ -118,6 +118,12 @@ There are two windows on the right side, the one on top should be the list of a 
 
 ### Connect DetailViewController to View Controller window
 
+- Click Main.storyboard;
+- open the Document Outline;
+- Choose View Controller under the second View Controller Scene;
+- Click the Identity Inspector on the top right of Xcode;
+- In Custom Class, change the class from gray NSViewController to DetailViewController.
+
 
 
 
