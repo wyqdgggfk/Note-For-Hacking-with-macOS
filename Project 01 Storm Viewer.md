@@ -114,9 +114,7 @@ There are two windows on the right side, the one on top should be the list of a 
 - Click the Identity Inspector on the top right of Xcode;
 - In Custom Class, change the class from gray NSViewController to SourceViewController.
 
-![Screen Shot 2020-02-23 at 20.59.50](https://tva1.sinaimg.cn/large/0082zybpgy1gc6n3dkbwqj31ff0u046b.jpg)
-
-
+![Screen Shot 2020-02-23 at 20.59.50](https://tva1.sinaimg.cn/large/0082zybpgy1gc6n6d536ij31ff0u0786.jpg)
 
 ### Connect DetailViewController to View Controller window
 
