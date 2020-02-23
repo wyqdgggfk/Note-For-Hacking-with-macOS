@@ -35,13 +35,13 @@ Do not care about the white area on the right side, they are just some test proj
 
 ![Untitled](https://tva1.sinaimg.cn/large/0082zybpgy1gc6enhylcqj30sk0ijmyb.jpg)
 
+- Next page, Xcode will ask where to store this project, find a path to store it, that's simple, or you can create a **New Folder** to store it:
 
+![image-20200223162030535](https://tva1.sinaimg.cn/large/0082zybpgy1gc6er9bv1oj30sk0ijq43.jpg)
 
+Finally, your Xcode interface will look like this:
 
-
-
-
-
+![image-20200223162424297](https://tva1.sinaimg.cn/large/0082zybpgy1gc6evazge2j31g40tqacv.jpg)
 
 
 
