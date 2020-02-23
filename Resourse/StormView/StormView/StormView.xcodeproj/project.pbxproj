@@ -11,6 +11,8 @@
 		96825C4324026DBC004D1C45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96825C4224026DBC004D1C45 /* ViewController.swift */; };
 		96825C4524026DBD004D1C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96825C4424026DBD004D1C45 /* Assets.xcassets */; };
 		96825C4824026DBD004D1C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96825C4624026DBD004D1C45 /* Main.storyboard */; };
+		96825C552402AC8F004D1C45 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96825C542402AC8F004D1C45 /* SourceViewController.swift */; };
+		96825C572402ADA9004D1C45 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96825C562402ADA9004D1C45 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		96825C4724026DBD004D1C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96825C4924026DBD004D1C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96825C4A24026DBD004D1C45 /* StormView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StormView.entitlements; sourceTree = "<group>"; };
+		96825C542402AC8F004D1C45 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
+		96825C562402ADA9004D1C45 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				96825C4224026DBC004D1C45 /* ViewController.swift */,
 				96825C4424026DBD004D1C45 /* Assets.xcassets */,
 				96825C4624026DBD004D1C45 /* Main.storyboard */,
+				96825C562402ADA9004D1C45 /* DetailViewController.swift */,
+				96825C542402AC8F004D1C45 /* SourceViewController.swift */,
 				96825C4924026DBD004D1C45 /* Info.plist */,
 				96825C4A24026DBD004D1C45 /* StormView.entitlements */,
 			);
@@ -135,6 +141,8 @@
 			files = (
 				96825C4324026DBC004D1C45 /* ViewController.swift in Sources */,
 				96825C4124026DBC004D1C45 /* AppDelegate.swift in Sources */,
+				96825C552402AC8F004D1C45 /* SourceViewController.swift in Sources */,
+				96825C572402ADA9004D1C45 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
