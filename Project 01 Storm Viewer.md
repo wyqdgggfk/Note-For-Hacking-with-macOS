@@ -69,31 +69,56 @@ This will make a connection between the **Window Controller** and the **Split Vi
 
 ![image-20200223170120455](https://tva1.sinaimg.cn/large/0082zybpgy1gc6fxpz5wuj30qx0au0sr.jpg)
 
-d
+## Set View Controller
+
+There are two windows on the right side, the one on top should be the list of a table, the one on bottom should be the detail picture.
+
+### Set SourceView Controller
+
+- Open File > New > File, a window shows up like this:
+
+  ![image-20200223204311828](https://tva1.sinaimg.cn/large/0082zybpgy1gc6mcljo43j311e0kmtb4.jpg)
+
+- Choose Cocoa Class under macOS, click "next"
+- Create the Class:
+  - Enter "SourceViewController" in Class;
+  - Enter "NSViewController" in Subclass of;
+  - **Uncheck** the "Also create XIB file for user interface"
+  - Choose "Swift" in Language.
+
+![image-20200223204715888](https://tva1.sinaimg.cn/large/0082zybpgy1gc6mgtrtxxj311e0km765.jpg)
+
+- Save the SorceViewCtroller.swift file as below, then choose "Create" button:
+
+![image-20200223204832378](https://tva1.sinaimg.cn/large/0082zybpgy1gc6mi4jvvnj311e0kmtas.jpg)
+
+### Set DetailView Controller
+
+- Open File > New > File;
+- Choose Cocoa Class under macOS;
+- Create the class:
+  - Enter "DetailViewController" in Class;
+  - Enter "NSViewController" in Subclass of;
+  - **Uncheck** the "Also create XIB file for user interface"
+  - Choose "Swift" in Language.
+
+- Save the DetailViewController.swift file, choose "Create" button.
+
+## Make Connection between two view controllers and two ViewController.swift files
+
+### Connect SourceViewController to View Controller window
+
+- Click Main.storyboard;
+- open the Document Outline;
+- Choose View Controller under the first View Controller Scene;
+- Click the Identity Inspector on the top right of Xcode;
+- In Custom Class, change the class from gray NSViewController to SourceViewController.
+
+![Screen Shot 2020-02-23 at 20.59.50](https://tva1.sinaimg.cn/large/0082zybpgy1gc6n3dkbwqj31ff0u046b.jpg)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Connect DetailViewController to View Controller window
 
 
 
