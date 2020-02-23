@@ -17,6 +17,7 @@ Do not care about the white area on the right side, they are just some test proj
 ![image-20200223155305651](https://tva1.sinaimg.cn/large/0082zybpgy1gc6dyok2a5j30ts0jrjw2.jpg) 
 
 - Xcode will ask us some information it needs, please check as below:
+
   - on the **Product Name text field**,enter our project name "StormView"; 
   - choose **Team** as none;
   - choose **Organization Name** whatever you like;
@@ -30,9 +31,9 @@ Do not care about the white area on the right side, they are just some test proj
   - uncheck **Include Unit Tests**;
   - uncheck **Include UI Tests**.
 
+  Finally your choice will like below:
 
-
-
+![Untitled](https://tva1.sinaimg.cn/large/0082zybpgy1gc6enhylcqj30sk0ijmyb.jpg)
 
 
 
