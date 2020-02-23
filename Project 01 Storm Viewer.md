@@ -128,6 +128,9 @@ There are two windows on the right side, the one on top should be the list of a 
 
 - Open Main.storyboard and choose Source View Controller in the Document Outline;
 - Open the object library and search the keywords "table";
+- Drag the object "Table View" into the Source View Scene on the interface builder;
+- Stretch the "Table View" object to make it fullfill the whole scene;
+- In Document Outline
 
 
 
