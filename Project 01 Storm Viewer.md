@@ -126,7 +126,8 @@ There are two windows on the right side, the one on top should be the list of a 
 
 ## Desining the interface
 
-
+- Open Main.storyboard and choose Source View Controller in the Document Outline;
+- Open the object library and search the keywords "table";
 
 
 
