@@ -693,6 +693,9 @@
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
                     </window>
+                    <connections>
+                        <segue destination="zOE-Vg-Vky" kind="relationship" relationship="window.shadowedContentViewController" id="Aga-0h-S44"/>
+                    </connections>
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -721,7 +724,7 @@
                 </splitViewController>
                 <customObject id="283-HX-YqF" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="60" y="648"/>
+            <point key="canvasLocation" x="75" y="708"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="s19-dc-rdH">
