@@ -16,7 +16,19 @@ Do not care about the white area on the right side, they are just some test proj
 
 ![image-20200223155305651](https://tva1.sinaimg.cn/large/0082zybpgy1gc6dyok2a5j30ts0jrjw2.jpg) 
 
-- Xcode will ask us what our project name is, on the Product Name text field,enter our project name ""
+- Xcode will ask us some information it needs, please check as below:
+  - on the **Product Name text field**,enter our project name "StormView"; 
+  - choose **Team** as none;
+  - choose **Organization Name** whatever you like;
+  - don't DIY the **Organization Identifier**, Xcode will do it for us;
+  - choose **Language** as Swift;
+  - **User Interface** choose Storyboard;
+  - uncheck the **Create Document-Based Application**;
+  - leave Document Extension as empty;
+  - uncheck **Use Core Data**;
+  - uncheck **Use CloudKit**;
+  - uncheck **Include Unit Tests**;
+  - uncheck **Include UI Tests**.
 
 
 
