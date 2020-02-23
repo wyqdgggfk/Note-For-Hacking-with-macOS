@@ -6,7 +6,9 @@ In this chapter, we will create a simple app step by step, to make sure that I c
 
 # Launch Xcode and create a project
 
-1. First open Xcode.app and it will show you a window like this:
+## Open Xcode.app and create the basic information
+
+When you launch Xcode.app, it looks like this:
 
 ![xcodelaunchwindow](https://tva1.sinaimg.cn/large/0082zybpgy1gc6dr5y34tj30nk0ecmxx.jpg)
 
@@ -43,7 +45,7 @@ Finally, your Xcode interface will look like this:
 
 ![image-20200223162424297](https://tva1.sinaimg.cn/large/0082zybpgy1gc6evazge2j31g40tqacv.jpg)
 
-2. Modify 
+2. Modify the User Interface
 
 
 
