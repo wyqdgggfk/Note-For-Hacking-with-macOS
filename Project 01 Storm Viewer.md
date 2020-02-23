@@ -45,7 +45,13 @@ Finally, your Xcode interface will look like this:
 
 ![image-20200223162424297](https://tva1.sinaimg.cn/large/0082zybpgy1gc6evazge2j31g40tqacv.jpg)
 
-2. Modify the User Interface
+## Modify the User Interface
+
+- Delete the only View Controller Scene in the Document outline, choose it and press **Backspace** on your keyboard, if you don't see the Document outline, go to Editor > Document outline, finally it looks like this:
+
+![image-20200223164017871](https://tva1.sinaimg.cn/large/0082zybpgy1gc6fbvc046j31ek0u0ju9.jpg)
+
+
 
 
 
