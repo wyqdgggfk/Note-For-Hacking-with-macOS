@@ -726,10 +726,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="708"/>
         </scene>
-        <!--View Controller-->
+        <!--Source View Controller-->
         <scene sceneID="s19-dc-rdH">
             <objects>
-                <viewController id="2ar-36-0Ei" sceneMemberID="viewController">
+                <viewController id="2ar-36-0Ei" customClass="SourceViewController" customModule="StormView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="A6F-eM-cvL">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
