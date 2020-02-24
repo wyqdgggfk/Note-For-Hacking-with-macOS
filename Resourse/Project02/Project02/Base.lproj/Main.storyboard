@@ -726,6 +726,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="submitGuess:" target="XfG-lQ-9wD" id="rXb-fb-OX5"/>
+                                </connections>
                             </button>
                             <scrollView misplaced="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0p-17-qxF">
                                 <rect key="frame" x="0.0" y="-25" width="250" height="209"/>
@@ -822,6 +825,10 @@
                                                     </prototypeCellViews>
                                                 </tableColumn>
                                             </tableColumns>
+                                            <connections>
+                                                <outlet property="dataSource" destination="XfG-lQ-9wD" id="sPv-UK-AmN"/>
+                                                <outlet property="delegate" destination="XfG-lQ-9wD" id="cYP-nb-ehX"/>
+                                            </connections>
                                         </tableView>
                                     </subviews>
                                 </clipView>
@@ -854,6 +861,10 @@
                             <constraint firstItem="2nO-x5-EgW" firstAttribute="centerY" secondItem="jRx-WZ-AFB" secondAttribute="centerY" id="zSz-zA-Thr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="guess" destination="2nO-x5-EgW" id="oLz-2u-SOe"/>
+                        <outlet property="tableView" destination="zhN-iy-u9n" id="hqA-N4-GPX"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
