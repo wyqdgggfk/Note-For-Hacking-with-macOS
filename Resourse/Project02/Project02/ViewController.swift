@@ -8,15 +8,40 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class ViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate {
     @IBOutlet var tableView: NSTableView!
     @IBOutlet var guess: NSTextField!
+
+    var answer = ""
+    var guesses = [String]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    func numberOfRows(in tableView: NSTableView) -> Int {
+        return guesses.count
+    }
+    
+    func result(for guess:String) -> String {
+        return "Result"
+    }
+    
+    func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
+        guard let vw = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else {
+            return nil
+        }
+        if tableColumn?.title == "Guess" {
+            vw.textField?.stringValue = guesses[row]
+        } else {
+            vw.textField?.stringValue = result(for: guesses[row])
+        }
+        return vw
+    }
+    
     @IBAction func submitGuess(_ sender: Any) {
     }
     
