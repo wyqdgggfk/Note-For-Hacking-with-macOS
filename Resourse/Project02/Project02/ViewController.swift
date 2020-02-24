@@ -41,7 +41,9 @@ class ViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate
         }
         return vw
     }
-    
+    func tableView(_ tableView: NSTableView, shouldSelectRow row: Int) -> Bool {
+        return false
+    }
     @IBAction func submitGuess(_ sender: Any) {
     }
     
