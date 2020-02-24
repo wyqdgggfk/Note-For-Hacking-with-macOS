@@ -18,7 +18,7 @@ class ViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        guesses.append("just test")
+        
         // Do any additional setup after loading the view.
     }
     
