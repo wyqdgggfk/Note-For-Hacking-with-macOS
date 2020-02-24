@@ -790,6 +790,7 @@
                                             </tableColumns>
                                             <connections>
                                                 <outlet property="dataSource" destination="2ar-36-0Ei" id="kA8-9J-ltg"/>
+                                                <outlet property="delegate" destination="2ar-36-0Ei" id="wyp-cl-giu"/>
                                             </connections>
                                         </tableView>
                                     </subviews>
