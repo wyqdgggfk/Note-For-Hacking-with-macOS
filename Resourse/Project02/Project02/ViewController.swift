@@ -23,7 +23,7 @@ class ViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate
     }
     
     func numberOfRows(in tableView: NSTableView) -> Int {
-        return guesses.count
+        return 3
     }
     
     func result(for guess:String) -> String {
