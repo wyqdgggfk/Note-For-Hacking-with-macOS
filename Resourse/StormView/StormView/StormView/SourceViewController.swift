@@ -14,8 +14,7 @@ class SourceViewController: NSViewController,NSTableViewDelegate,NSTableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-//        tableView.delegate = self
-//        tableView.dataSource = self
+
     }
     func numberOfRows(in tableView: NSTableView) -> Int {
         return 400
