@@ -18,12 +18,12 @@ class ViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        guesses.append("just test")
         // Do any additional setup after loading the view.
     }
     
     func numberOfRows(in tableView: NSTableView) -> Int {
-        return 3
+        return guesses.count
     }
     
     func result(for guess:String) -> String {
