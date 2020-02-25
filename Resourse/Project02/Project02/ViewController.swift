@@ -18,7 +18,7 @@ class ViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        startNewGame()
         // Do any additional setup after loading the view.
     }
     
@@ -54,7 +54,18 @@ class ViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate
         // Update the view, if already loaded.
         }
     }
-
+    func startNewGame() {
+        guess.stringValue = ""
+        guesses.removeAll()
+        answer = ""
+        
+        var numbers = Array(0...9)
+        numbers.shuffle()
+        for _ in 0 ..< 4 {
+            answer.append(String(numbers.removeLast()))
+        }
+        tableView.reloadData()
+    }
 
 }
 
