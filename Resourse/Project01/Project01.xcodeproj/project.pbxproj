@@ -11,6 +11,7 @@
 		96FBE9F22406AC6200357A02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBE9F12406AC6200357A02 /* ViewController.swift */; };
 		96FBE9F42406AC6300357A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FBE9F32406AC6300357A02 /* Assets.xcassets */; };
 		96FBE9F72406AC6300357A02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FBE9F52406AC6300357A02 /* Main.storyboard */; };
+		96FBEA052406BFCB00357A02 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBEA042406BFCB00357A02 /* SourceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		96FBE9F62406AC6300357A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96FBE9F82406AC6300357A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96FBE9F92406AC6300357A02 /* Project01.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Project01.entitlements; sourceTree = "<group>"; };
+		96FBEA042406BFCB00357A02 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				96FBE9F12406AC6200357A02 /* ViewController.swift */,
 				96FBE9F32406AC6300357A02 /* Assets.xcassets */,
 				96FBE9F52406AC6300357A02 /* Main.storyboard */,
+				96FBEA042406BFCB00357A02 /* SourceViewController.swift */,
 				96FBE9F82406AC6300357A02 /* Info.plist */,
 				96FBE9F92406AC6300357A02 /* Project01.entitlements */,
 			);
@@ -135,6 +138,7 @@
 			files = (
 				96FBE9F22406AC6200357A02 /* ViewController.swift in Sources */,
 				96FBE9F02406AC6200357A02 /* AppDelegate.swift in Sources */,
+				96FBEA052406BFCB00357A02 /* SourceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
