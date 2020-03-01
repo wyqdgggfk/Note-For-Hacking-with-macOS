@@ -8,3 +8,4 @@
 
 # 第五步 向 SplitView 添加 imageView
 
+# 第六步 添加 Outlets
