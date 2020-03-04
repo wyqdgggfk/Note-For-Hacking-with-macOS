@@ -801,6 +801,9 @@
                             </scrollView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="5ck-eG-ujQ" id="0YZ-wQ-BRn"/>
+                    </connections>
                 </viewController>
                 <customObject id="E6h-67-gnO" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
