@@ -11,3 +11,5 @@
 # 第六步 添加 Outlets
 
 # 第七步 添加 constraints
+
+# 第八步 更改 Split View Item 的 attributes inspector
