@@ -824,6 +824,9 @@
                             </imageView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="hAY-7h-IS5" id="Vpm-iZ-RFD"/>
+                    </connections>
                 </viewController>
                 <customObject id="xYI-1c-YOF" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
