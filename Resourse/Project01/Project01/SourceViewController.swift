@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class SourceViewController: NSViewController {
+class SourceViewController: NSViewController,NSTableViewDelegate,NSTableViewDataSource {
     @IBOutlet var tableView: NSTableView!
     
     override func viewDidLoad() {
