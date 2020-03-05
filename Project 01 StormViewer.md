@@ -17,3 +17,6 @@
 # 第九步 在 SourceViewController.swift 中设置 DataSource 和 Delegate
 
 # 第十步 确定有多少行及每行显示的内容
+
+# 第十一步 加入 照片文件
+
