@@ -10,7 +10,7 @@ import Cocoa
 
 class SourceViewController: NSViewController,NSTableViewDelegate,NSTableViewDataSource {
     @IBOutlet var tableView: NSTableView!
-    var applications = [String]() //创建一个 pictures 数组储存照片的名字
+    var applications = [String]() //创建一个 applications 数组储存软件的名字
     
     override func viewDidLoad() {
         super.viewDidLoad()
