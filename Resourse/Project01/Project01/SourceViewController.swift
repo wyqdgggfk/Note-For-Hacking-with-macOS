@@ -18,7 +18,7 @@ class SourceViewController: NSViewController,NSTableViewDelegate,NSTableViewData
         let path = Bundle.main.resourcePath!
         let items = try! fm.contentsOfDirectory(atPath: path)
         for item in items {
-            if item.hasSuffix("nssl"){
+            if item.hasPrefix("nssl"){
                 pictures.append(item)
             }
             
