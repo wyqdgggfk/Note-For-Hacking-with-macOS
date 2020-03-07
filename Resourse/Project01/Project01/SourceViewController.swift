@@ -23,8 +23,6 @@ class SourceViewController: NSViewController,NSTableViewDelegate,NSTableViewData
             }
             
         }
-        
-        
     }
     // 确定左侧列表有多少行
     func numberOfRows(in tableView: NSTableView) -> Int {
