@@ -28,7 +28,6 @@ class SourceViewController: NSViewController,NSTableViewDelegate,NSTableViewData
     func numberOfRows(in tableView: NSTableView) -> Int {
         return pictures.count
     }
-    
     // 确定左侧列表每行显示的内容
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
         guard let vw = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else {
