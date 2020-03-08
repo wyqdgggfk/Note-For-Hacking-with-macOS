@@ -21,8 +21,10 @@ class SourceViewController: NSViewController,NSTableViewDelegate,NSTableViewData
             if item.hasPrefix("nssl"){
                 pictures.append(item)
             }
-            
         }
+        let currentUser = NSFullUserName()
+        print(currentUser)
+        
     }
     // 确定左侧列表有多少行
     func numberOfRows(in tableView: NSTableView) -> Int {
