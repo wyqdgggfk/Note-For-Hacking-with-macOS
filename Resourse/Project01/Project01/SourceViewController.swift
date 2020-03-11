@@ -25,6 +25,8 @@ class SourceViewController: NSViewController,NSTableViewDelegate,NSTableViewData
         let currentUser = NSFullUserName()
         print(currentUser)
         
+        let userURL = home
+        
     }
     // 确定左侧列表有多少行
     func numberOfRows(in tableView: NSTableView) -> Int {
