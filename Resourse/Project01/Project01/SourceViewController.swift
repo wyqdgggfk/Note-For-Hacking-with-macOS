@@ -22,11 +22,11 @@ class SourceViewController: NSViewController,NSTableViewDelegate,NSTableViewData
                 pictures.append(item)
             }
         }
-//        let currentUser = NSFullUserName()
-//        print(currentUser)
+        let currentUser = NSHomeDirectory()
+        print(currentUser)
         
         let userURL = FileManager.default
-        let userPath = try! userURL.homeDirectoryForCurrentUser
+        let userPath = userURL.homeDirectoryForCurrentUser
         print(userPath)
         
     }
