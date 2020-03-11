@@ -38,6 +38,7 @@ class SourceViewController: NSViewController,NSTableViewDelegate,NSTableViewData
         vw.textField?.stringValue = pictures[row]
         return vw
     }
+    // 确定右侧显示的图片
     func tableViewSelectionDidChange(_ notification: Notification) {
         guard tableView.selectedRow != -1 else {return}
         guard let splitVC = parent as? NSSplitViewController else {return}
