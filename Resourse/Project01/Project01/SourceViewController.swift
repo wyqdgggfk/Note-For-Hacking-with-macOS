@@ -22,10 +22,12 @@ class SourceViewController: NSViewController,NSTableViewDelegate,NSTableViewData
                 pictures.append(item)
             }
         }
-        let currentUser = NSFullUserName()
-        print(currentUser)
+//        let currentUser = NSFullUserName()
+//        print(currentUser)
         
-        let userURL = home
+        let userURL = FileManager.default
+        let userPath = try! userURL.homeDirectoryForCurrentUser
+        print(userPath)
         
     }
     // 确定左侧列表有多少行
