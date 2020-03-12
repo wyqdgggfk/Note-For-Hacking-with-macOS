@@ -678,7 +678,7 @@
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="75" y="-38"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
@@ -697,12 +697,21 @@
                                 <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="i1Y-IM-tv2"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="frU-JM-aMA"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="RNY-69-SZJ"/>
+                                <toolbarItem implicitItemIdentifier="04B232B1-0513-4282-9F58-E367B1FD0CB1" label="" paletteLabel="" image="NSShareTemplate" sizingBehavior="auto" id="2PI-l6-87h">
+                                    <nil key="toolTip"/>
+                                    <button key="view" verticalHuggingPriority="750" id="REu-Pv-GJN">
+                                        <rect key="frame" x="0.0" y="14" width="27" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" image="NSShareTemplate" imagePosition="only" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="3ku-vZ-pCC">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                </toolbarItem>
                             </allowedToolbarItems>
                             <defaultToolbarItems>
-                                <toolbarItem reference="wWL-aP-8vX"/>
-                                <toolbarItem reference="7Sl-JU-iE2"/>
                                 <toolbarItem reference="RNY-69-SZJ"/>
-                                <toolbarItem reference="i1Y-IM-tv2"/>
+                                <toolbarItem reference="2PI-l6-87h"/>
                             </defaultToolbarItems>
                         </toolbar>
                         <connections>
@@ -765,7 +774,7 @@
                                             <tableColumns>
                                                 <tableColumn width="445" minWidth="40" maxWidth="1000" id="npI-dr-f7A">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                                        <font key="font" metaFont="message" size="11"/>
+                                                        <font key="font" metaFont="menu" size="11"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                     </tableHeaderCell>
@@ -866,4 +875,7 @@
             <point key="canvasLocation" x="721" y="937"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="NSShareTemplate" width="11" height="16"/>
+    </resources>
 </document>
