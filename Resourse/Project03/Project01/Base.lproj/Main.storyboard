@@ -690,7 +690,7 @@
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <value key="minSize" type="size" width="480" height="270"/>
-                        <toolbar key="toolbar" implicitIdentifier="BDB21C27-44D5-4F69-8F32-789DDD81F9A4" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="fMx-q8-fvo">
+                        <toolbar key="toolbar" implicitIdentifier="BDB21C27-44D5-4F69-8F32-789DDD81F9A4" autosavesConfiguration="NO" displayMode="iconOnly" sizeMode="regular" id="fMx-q8-fvo">
                             <allowedToolbarItems>
                                 <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="wWL-aP-8vX"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="7Sl-JU-iE2"/>
@@ -706,6 +706,9 @@
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
+                                        <connections>
+                                            <action selector="sharedClicked:" target="Oky-zY-oP4" id="2yp-TE-KWF"/>
+                                        </connections>
                                     </button>
                                 </toolbarItem>
                             </allowedToolbarItems>
