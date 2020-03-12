@@ -702,10 +702,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--Split View Controller-->
+        <!--View Controller-->
         <scene sceneID="XBt-MU-DpT">
             <objects>
-                <splitViewController id="g7J-ki-EX1" sceneMemberID="viewController">
+                <splitViewController id="g7J-ki-EX1" customClass="ViewController" customModule="Project01" customModuleProvider="target" sceneMemberID="viewController">
                     <splitViewItems>
                         <splitViewItem holdingPriority="260" id="CAY-0E-eCe"/>
                         <splitViewItem id="UeF-PI-Ver"/>
@@ -750,7 +750,7 @@
                                             <tableColumns>
                                                 <tableColumn width="445" minWidth="40" maxWidth="1000" id="npI-dr-f7A">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                                        <font key="font" metaFont="message" size="11"/>
+                                                        <font key="font" metaFont="controlContent" size="11"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                     </tableHeaderCell>
