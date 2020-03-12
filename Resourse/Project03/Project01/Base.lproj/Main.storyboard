@@ -690,6 +690,21 @@
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <value key="minSize" type="size" width="480" height="270"/>
+                        <toolbar key="toolbar" implicitIdentifier="BDB21C27-44D5-4F69-8F32-789DDD81F9A4" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="fMx-q8-fvo">
+                            <allowedToolbarItems>
+                                <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="wWL-aP-8vX"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="7Sl-JU-iE2"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="i1Y-IM-tv2"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="frU-JM-aMA"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="RNY-69-SZJ"/>
+                            </allowedToolbarItems>
+                            <defaultToolbarItems>
+                                <toolbarItem reference="wWL-aP-8vX"/>
+                                <toolbarItem reference="7Sl-JU-iE2"/>
+                                <toolbarItem reference="RNY-69-SZJ"/>
+                                <toolbarItem reference="i1Y-IM-tv2"/>
+                            </defaultToolbarItems>
+                        </toolbar>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
@@ -750,7 +765,7 @@
                                             <tableColumns>
                                                 <tableColumn width="445" minWidth="40" maxWidth="1000" id="npI-dr-f7A">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                                        <font key="font" metaFont="controlContent" size="11"/>
+                                                        <font key="font" metaFont="message" size="11"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                     </tableHeaderCell>
