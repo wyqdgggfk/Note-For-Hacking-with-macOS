@@ -14,6 +14,7 @@ class ViewController: NSViewController {
         super.viewDidLoad()
         runBackgroundCode1()
         runBackgroundCode2()
+        runBackgroundCode3()
         // Do any additional setup after loading the view.
     }
 
@@ -36,6 +37,13 @@ class ViewController: NSViewController {
             DispatchQueue.main.async {
                 self.log(message: "On main thread")
             }
+        }
+    }
+    func runBackgroundCode3() {
+        DispatchQueue.global().async {
+            guard let url = URL(string: "https://www.apple.com") else { return }
+            guard let str = try? String(contentsOf: url) else { return }
+            print(str)
         }
     }
 }
