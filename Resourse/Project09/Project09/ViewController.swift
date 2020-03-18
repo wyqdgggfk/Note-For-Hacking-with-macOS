@@ -12,7 +12,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        runBackgroundCode1()
         // Do any additional setup after loading the view.
     }
 
@@ -24,5 +24,11 @@ class ViewController: NSViewController {
     @objc func log(message: String) {
         print("Printing message:\(message)")
     }
+    func runBackgroundCode1() {
+        performSelector(inBackground: #selector(log), with: "Hello world 1")
+        performSelector(onMainThread: #selector(log), with: "Hello world 2", waitUntilDone: false)
+        log(message: "Hello world 3")
+    }
+    
 }
 
