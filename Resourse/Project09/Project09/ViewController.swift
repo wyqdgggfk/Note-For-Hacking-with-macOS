@@ -13,6 +13,7 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         runBackgroundCode1()
+        runBackgroundCode2()
         // Do any additional setup after loading the view.
     }
 
@@ -29,6 +30,13 @@ class ViewController: NSViewController {
         performSelector(onMainThread: #selector(log), with: "Hello world 2", waitUntilDone: false)
         log(message: "Hello world 3")
     }
-    
+    func runBackgroundCode2() {
+        DispatchQueue.global().async {
+            [unowned self] in self.log(message: "On background thread")
+            DispatchQueue.main.async {
+                self.log(message: "On main thread")
+            }
+        }
+    }
 }
 
