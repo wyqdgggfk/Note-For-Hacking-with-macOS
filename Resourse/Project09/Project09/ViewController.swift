@@ -14,7 +14,7 @@ class ViewController: NSViewController {
         super.viewDidLoad()
         runBackgroundCode1()
         runBackgroundCode2()
-        runBackgroundCode3()
+        runBackgroundCode4()
         // Do any additional setup after loading the view.
     }
 
@@ -44,6 +44,11 @@ class ViewController: NSViewController {
             guard let url = URL(string: "https://www.apple.com") else { return }
             guard let str = try? String(contentsOf: url) else { return }
             print(str)
+        }
+    }
+    func runBackgroundCode4() {
+        DispatchQueue.global(qos: .userInteractive).async {
+            [unowned self] in self.log(message: "This is high priority")
         }
     }
 }
