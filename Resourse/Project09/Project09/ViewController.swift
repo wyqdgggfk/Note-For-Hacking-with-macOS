@@ -24,5 +24,6 @@ class ViewController: NSViewController {
     @objc func log(message: String) {
         print("Printing message:\(message)")
     }
+    
 }
 
