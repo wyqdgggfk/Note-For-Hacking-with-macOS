@@ -14,6 +14,7 @@ class ViewController: NSViewController {
         super.viewDidLoad()
         runBackgroundCode1()
         runBackgroundCode2()
+        perform(#selector(log),with: "hello",afterDelay: 2) //延迟2秒执行
         runBackgroundCode4()
         // Do any additional setup after loading the view.
     }
