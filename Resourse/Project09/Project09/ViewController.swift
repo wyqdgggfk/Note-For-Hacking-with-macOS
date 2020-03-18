@@ -41,7 +41,7 @@ class ViewController: NSViewController {
     }
     func runBackgroundCode3() {
         DispatchQueue.global().async {
-            guard let url = URL(string: "https://www.baidu.com") else { return }
+            guard let url = URL(string: "https://www.apple.com") else { return }
             guard let str = try? String(contentsOf: url) else { return }
             print(str)
         }
