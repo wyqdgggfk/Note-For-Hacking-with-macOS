@@ -21,7 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         statusItem.button?.title = "Fetching..."
-        statusItem.menu = NSMenu()
+FGVCDX        statusItem.menu = NSMenu()
         addConfigurationMenuItem()
     }
 
