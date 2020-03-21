@@ -14,14 +14,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func addConfigurationMenuItem() {
         let separator = NSMenuItem(title: "Setting", action: #selector(showSettings), keyEquivalent: "")
-        let testArray = ["MacBook Pro","MacBook Air","MacBook","iMac","Mac mini","Mac Pro","Thunderbolt","Lightening","Type-C","USB","Mountain Lion"]
-        
         statusItem.menu?.addItem(separator)
+        
+        // 以下代码是我自己在学习过程中加的,只为测试
+        let testArray = ["MacBook Pro","MacBook Air","MacBook","iMac","Mac mini","Mac Pro","Thunderbolt","Lightening","Type-C","USB","Mountain Lion"]
         for item in testArray {
             let menuItem = NSMenuItem(title: item, action: #selector(showSettings), keyEquivalent: "")
-            
             statusItem.menu?.addItem(menuItem)
         }
+        // 以上代码是我自己在学习过程中加的,只为测试
     }
     @objc func showSettings(_ sender: NSMenuItem){
     }
