@@ -20,8 +20,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        statusItem.button?.title = "Fetching..."
-        statusItem.menu = NSMenu()
+        statusItem.button?.title = "Fetching..." // statusbar 的名字
+        statusItem.menu = NSMenu() // statusbar 的菜单项
         addConfigurationMenuItem()
     }
 
