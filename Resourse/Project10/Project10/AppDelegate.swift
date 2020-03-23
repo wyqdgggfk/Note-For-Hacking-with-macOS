@@ -24,19 +24,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         // 以上代码是我自己在学习过程中加的,只为测试
     }
-    @objc func showSettings(_ sender: NSMenuItem){
-    }
-
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        statusItem.button?.title = "Fetching..." // statusbar 的名字
-        statusItem.menu = NSMenu() // statusbar 的菜单项
-        addConfigurationMenuItem()
-    }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
-    }
-    @objc func showSetting(_ sender:NSMenuItem){
+    @objc func showSettings(_ sender:NSMenuItem){
         let storyboard = NSStoryboard(name: NSStoryboard.Name("Main"), bundle: nil)
         guard let vc = storyboard.instantiateController(withIdentifier: "ViewController") as? ViewController else {return}
         
@@ -45,6 +33,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         popoverView.behavior = .transient
         popoverView.show(relativeTo: statusItem.button!.bounds, of: statusItem.button!, preferredEdge: .maxY)
     }
+
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+        statusItem.button?.title = "Fetching..." // statusbar 的名字
+        statusItem.menu = NSMenu() // statusbar 的菜单项
+        addConfigurationMenuItem()
+        
+    }
+
+    func applicationWillTerminate(_ aNotification: Notification) {
+        // Insert code here to tear down your application
+    }
+    
 
 
 }
