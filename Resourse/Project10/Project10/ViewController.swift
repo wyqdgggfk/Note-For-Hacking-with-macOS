@@ -22,6 +22,7 @@ class ViewController: NSViewController {
     }
     @IBAction func showPoweredBy(_ sender: NSButton) {
     }
+        
     
     override var representedObject: Any? {
         didSet {
