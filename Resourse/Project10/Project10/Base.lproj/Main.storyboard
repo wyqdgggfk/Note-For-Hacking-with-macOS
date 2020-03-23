@@ -684,7 +684,7 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Project10" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="XfG-lQ-9wD" customClass="ViewController" customModule="Project10" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="550"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -764,6 +764,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="showPoweredBy:" target="XfG-lQ-9wD" id="MJm-bq-vdn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>
@@ -795,6 +798,12 @@
                             <constraint firstItem="Onx-F2-QFU" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="yPr-dD-hwh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="apiKey" destination="hat-6s-e7a" id="Lsh-bI-Zhz"/>
+                        <outlet property="mapView" destination="Onx-F2-QFU" id="cUQ-Gm-CAa"/>
+                        <outlet property="statusBarOption" destination="xwg-yR-Yeg" id="Ke9-Eu-zzX"/>
+                        <outlet property="units" destination="Mcb-7m-Fno" id="lWb-SA-Wel"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
