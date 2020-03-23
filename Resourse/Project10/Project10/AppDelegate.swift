@@ -36,6 +36,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
+    @objc func showSetting(_ sender:NSMenuItem){
+        let storyboard = NSStoryboard(name: NSStoryboard.Name("Main"), bundle: nil)
+        guard let vc = storyboard.instantiateController(withIdentifier: "ViewController") as? ViewController else {return}
+        
+        let popoverView = NSPopover()
+        popoverView.contentViewController = vc
+        popoverView.behavior = .transient
+        popoverView.show(relativeTo: statusItem.button!.bounds, of: statusItem.button!, preferredEdge: .maxY)
+    }
 
 
 }
