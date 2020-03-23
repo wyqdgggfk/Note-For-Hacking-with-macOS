@@ -16,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		965453C1242865BB0086CA7D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		965453C52428AFAA0086CA7D /* SwiftyJSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftyJSON; path = ../../../../../SwiftyJSON; sourceTree = "<group>"; };
 		96E356322423B63B00990F9D /* Project10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E356352423B63B00990F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96E356372423B63B00990F9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 				96E356372423B63B00990F9D /* ViewController.swift */,
 				96E356392423B63C00990F9D /* Assets.xcassets */,
 				96E3563B2423B63C00990F9D /* Main.storyboard */,
+				965453C52428AFAA0086CA7D /* SwiftyJSON */,
 				96E3563E2423B63C00990F9D /* Info.plist */,
 				96E3563F2423B63C00990F9D /* Project10.entitlements */,
 			);
