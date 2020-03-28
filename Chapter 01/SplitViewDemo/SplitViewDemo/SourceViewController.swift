@@ -10,6 +10,10 @@ import Cocoa
 
 class SourceViewController: NSViewController {
 
+    let languageList: [String] = []
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
