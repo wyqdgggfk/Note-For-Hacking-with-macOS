@@ -731,7 +731,7 @@
             <objects>
                 <viewController id="4Ov-tj-rUM" customClass="SourceViewController" customModule="SplitViewDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="vfw-4d-x6x">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lR2-xv-DDx">
