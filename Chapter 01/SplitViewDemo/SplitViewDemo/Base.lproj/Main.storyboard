@@ -800,6 +800,9 @@
                             </scrollView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="SsZ-Us-NvV" id="dHu-G1-rXs"/>
+                    </connections>
                 </viewController>
                 <customObject id="eGI-WU-wcx" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -824,6 +827,10 @@
                             </textField>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="WLW-sT-jNm" id="Bqy-qN-aXU"/>
+                        <outlet property="labelView" destination="wSR-AG-anV" id="z5h-59-tgp"/>
+                    </connections>
                 </viewController>
                 <customObject id="SaV-rX-gsn" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,7 +9,8 @@
 import Cocoa
 
 class SourceViewController: NSViewController {
-
+    @IBOutlet var tableView: NSTableView!
+    
     let languageList: [String] = ["简体中文","繁體中文","English","Deutsch"," русский язык"]
     
     
