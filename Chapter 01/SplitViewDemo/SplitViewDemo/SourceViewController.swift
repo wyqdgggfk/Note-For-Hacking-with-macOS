@@ -10,7 +10,7 @@ import Cocoa
 
 class SourceViewController: NSViewController {
 
-    let languageList: [String] = []
+    let languageList: [String] = ["简体中文","繁體中文","English","Deutsch"," русский язык"]
     
     
     
