@@ -811,6 +811,9 @@
                             <constraint firstAttribute="trailing" secondItem="g76-SY-4J8" secondAttribute="trailing" id="qoY-pK-6Ey"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="Ssk-o2-UjZ" id="xby-ke-KeZ"/>
+                    </connections>
                 </viewController>
                 <customObject id="RZg-r1-mBj" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -842,6 +845,9 @@
                             <constraint firstItem="pBP-L5-mgV" firstAttribute="leading" secondItem="rnL-1K-Np6" secondAttribute="leading" id="koY-P9-tof"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="labelText" destination="pBP-L5-mgV" id="7cB-Hw-g5a"/>
+                    </connections>
                 </viewController>
                 <customObject id="vrL-eT-wVK" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
