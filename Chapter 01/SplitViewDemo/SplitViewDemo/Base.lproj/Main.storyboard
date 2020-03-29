@@ -706,7 +706,7 @@
             <objects>
                 <splitViewController id="5oQ-4R-UFy" sceneMemberID="viewController">
                     <splitViewItems>
-                        <splitViewItem id="ohu-aT-LSO"/>
+                        <splitViewItem holdingPriority="260" id="ohu-aT-LSO"/>
                         <splitViewItem id="4wQ-Hs-ZEi"/>
                     </splitViewItems>
                     <splitView key="splitView" dividerStyle="thin" vertical="YES" id="BHf-XU-BqP">
@@ -823,6 +823,24 @@
                     <view key="view" id="rnL-1K-Np6">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pBP-L5-mgV">
+                                <rect key="frame" x="-2" y="0.0" width="454" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="w0c-Em-8Ma"/>
+                                </constraints>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Label" id="8ai-yN-1GA">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="pBP-L5-mgV" secondAttribute="trailing" id="F4d-n3-wet"/>
+                            <constraint firstItem="pBP-L5-mgV" firstAttribute="top" secondItem="rnL-1K-Np6" secondAttribute="top" id="j1N-N2-aWE"/>
+                            <constraint firstItem="pBP-L5-mgV" firstAttribute="leading" secondItem="rnL-1K-Np6" secondAttribute="leading" id="koY-P9-tof"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="vrL-eT-wVK" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
