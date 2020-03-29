@@ -10,6 +10,7 @@ import Cocoa
 
 class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate {
     
+//    I should store the languageList in a plist file
     let languageList: [String] = ["简体中文","繁體中文","English","Deutsch"," русский язык","Le français"]
    
     override func viewDidLoad() {
