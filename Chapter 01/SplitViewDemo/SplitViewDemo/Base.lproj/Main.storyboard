@@ -824,11 +824,11 @@
             <objects>
                 <viewController id="mgt-tY-h4b" customClass="DetailViewController" customModule="SplitViewDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="rnL-1K-Np6">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pBP-L5-mgV">
-                                <rect key="frame" x="-2" y="0.0" width="454" height="300"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pBP-L5-mgV">
+                                <rect key="frame" x="-2" y="0.0" width="500" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="w0c-Em-8Ma"/>
                                 </constraints>

@@ -13,15 +13,24 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
     @IBOutlet var tableView: NSTableView!
     
 //    I should store the languageList in a plist file
-    let languageList: [String] = ["简体中文","繁體中文","English","Deutsch"," русский язык","Le français"]
-   
+//    let languageList: [String] = ["简体中文","繁體中文","English","Deutsch"," русский язык","Le français"]
+    let languageDictionary = ["简体中文":"凤凰台上凤凰游，凤去台空江自流。" + "\n" + "吴宫花草埋幽径，晋代衣冠成古丘。" + "\n" + "三山半落青天外，二水中分白鹭洲。" + "\n" + "总为浮云能蔽日，长安不见使人愁。",
+                              "繁體中文":"飛雪連天射白鹿,笑書神俠倚碧鴛",
+                              "English":"e hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty, and the pursuit of Happiness.",
+                              "Deutsch":"Sonne kann nicht ohne Schein, Mensch nicht ohne Liebe sein.",
+                              " русский язык":"где есть жизнь, есть счастье",
+                              "Le français":"Je ne suis pas d'accord avec ce que vous dites, mais je me battrai jusqu'à la mort pour que vous ayez le droit de le dire."]
+    var languageList:[String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        for key in languageDictionary.keys {
+            languageList.append(key)
+        }
     }
     // how many rows will show on the left
     func numberOfRows(in tableView: NSTableView) -> Int {
-        return languageList.count
+        return languageDictionary.count
     }
 //    what will show on the right
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
@@ -37,11 +46,7 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         guard let splitVC = parent as? NSSplitViewController else {return}
         if let detail = splitVC.children[1] as? DetailViewController
         {
-            if let source = splitVC.children[0] as? SourceViewController
-            {
-               let choosedRow = source.tableView.selectedRow
-                detail.labelChange(country: languageList[choosedRow])
-            }
+            detail.labelChange(country: languageDictionary[languageList[tableView.selectedRow]]!)
         }
         
     }

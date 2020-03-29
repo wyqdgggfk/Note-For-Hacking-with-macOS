@@ -14,9 +14,12 @@ class DetailViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        labelText.isHidden = true
+
 
     }
     func labelChange(country: String) {
+        labelText.isHidden = false
         labelText.stringValue = country
     }
 }
