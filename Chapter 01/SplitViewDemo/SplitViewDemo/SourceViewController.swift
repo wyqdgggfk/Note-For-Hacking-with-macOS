@@ -10,6 +10,8 @@ import Cocoa
 
 class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate {
     
+    @IBOutlet var tableView: NSTableView!
+    
 //    I should store the languageList in a plist file
     let languageList: [String] = ["简体中文","繁體中文","English","Deutsch"," русский язык","Le français"]
    
@@ -30,4 +32,14 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         return vw
     }
 
+    func tableViewSelectionDidChange(_ notification: Notification) {
+        guard tableView.selectedRow != -1 else { return }
+        guard let splitVC = parent as? NSSplitViewController else {return}
+        if let detail = splitVC.children[1] as? DetailViewController
+        {
+            detail.labelText = 
+        }
+        
+    }
+    
 }
