@@ -20,12 +20,12 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         return languageList.count
     }
     
-//    func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
-//        guard let vw = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else {
-//            return nil
-//        }
-//        vw.textField?.stringValue = languageList[row]
-//        return vw
-//    }
+    func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
+        guard let vw = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else {
+            return nil
+        }
+        vw.textField?.stringValue = languageList[row]
+        return vw
+    }
 
 }
