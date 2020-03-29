@@ -832,7 +832,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="w0c-Em-8Ma"/>
                                 </constraints>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Label" id="8ai-yN-1GA">
+                                <textFieldCell key="cell" lineBreakMode="clipping" selectable="YES" alignment="center" title="Label" id="8ai-yN-1GA">
                                     <font key="font" usesAppearanceFont="YES"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>

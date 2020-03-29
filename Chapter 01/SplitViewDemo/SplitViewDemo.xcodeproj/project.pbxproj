@@ -13,6 +13,7 @@
 		968C1A03242F6C5000D3E75A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968C1A01242F6C5000D3E75A /* Main.storyboard */; };
 		968C1A10242F75EB00D3E75A /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968C1A0F242F75EB00D3E75A /* SourceViewController.swift */; };
 		968C1A12242F75FE00D3E75A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968C1A11242F75FE00D3E75A /* DetailViewController.swift */; };
+		968C1A142430E98700D3E75A /* languageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 968C1A132430E98700D3E75A /* languageList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		968C1A05242F6C5000D3E75A /* SplitViewDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SplitViewDemo.entitlements; sourceTree = "<group>"; };
 		968C1A0F242F75EB00D3E75A /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
 		968C1A11242F75FE00D3E75A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		968C1A132430E98700D3E75A /* languageList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = languageList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				968C19FD242F6C4E00D3E75A /* ViewController.swift */,
 				968C19FF242F6C5000D3E75A /* Assets.xcassets */,
 				968C1A01242F6C5000D3E75A /* Main.storyboard */,
+				968C1A132430E98700D3E75A /* languageList.plist */,
 				968C1A0F242F75EB00D3E75A /* SourceViewController.swift */,
 				968C1A11242F75FE00D3E75A /* DetailViewController.swift */,
 				968C1A04242F6C5000D3E75A /* Info.plist */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968C1A142430E98700D3E75A /* languageList.plist in Resources */,
 				968C1A00242F6C5000D3E75A /* Assets.xcassets in Resources */,
 				968C1A03242F6C5000D3E75A /* Main.storyboard in Resources */,
 			);
