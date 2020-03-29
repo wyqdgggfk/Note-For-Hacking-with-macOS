@@ -9,15 +9,23 @@
 import Cocoa
 
 class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate {
-    @IBOutlet var tableView: NSTableView!
     
     let languageList: [String] = ["简体中文","繁體中文","English","Deutsch"," русский язык"]
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     func numberOfRows(in tableView: NSTableView) -> Int {
-        return 100
+        return languageList.count
     }
     
+//    func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
+//        guard let vw = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else {
+//            return nil
+//        }
+//        vw.textField?.stringValue = languageList[row]
+//        return vw
+//    }
+
 }
