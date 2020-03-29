@@ -37,7 +37,11 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         guard let splitVC = parent as? NSSplitViewController else {return}
         if let detail = splitVC.children[1] as? DetailViewController
         {
-            detail.labelText = 
+            if let source = splitVC.children[0] as? SourceViewController
+            {
+               let choosedRow = source.tableView.selectedRow
+                detail.labelChange(country: languageList[choosedRow])
+            }
         }
         
     }
