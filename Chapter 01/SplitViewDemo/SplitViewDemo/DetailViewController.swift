@@ -9,7 +9,7 @@
 import Cocoa
 
 class DetailViewController: NSViewController {
-    @IBOutlet var labelView: NSView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
