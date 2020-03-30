@@ -33,6 +33,8 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         for item in items {
             print(item)
         }
+        
+//        read the plist in my code
         let languageDic = Bundle.main.path(forResource: "languageList",ofType:"plist")
         let dic = NSDictionary(contentsOfFile: languageDic!)
         for key in dic!.allKeys {
