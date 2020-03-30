@@ -27,6 +27,18 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         for key in languageDictionary.keys {
             languageList.append(key)
         }
+        let fm = FileManager.default
+        let path = Bundle.main.resourcePath!
+        let items = try! fm.contentsOfDirectory(atPath: path)
+        for item in items {
+            print(item)
+        }
+        let languageDic = Bundle.main.path(forResource: "languageList",ofType:"plist")
+        let dic = NSDictionary(contentsOfFile: languageDic!)
+        for key in dic!.allKeys {
+            print(dic![key] ?? "")
+        }
+        
     }
     // how many rows will show on the left
     func numberOfRows(in tableView: NSTableView) -> Int {
