@@ -17,6 +17,8 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
     var languageDictionary:[String:String] = [:]
     let languageSourcePlist = Bundle.main.path(forResource: "languageList", ofType: "plist")
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,7 +28,6 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         for (key,value) in dic! {
             languageDictionary.updateValue(value as! String, forKey: key as! String)
         }
-        
         
         for key in languageDictionary.keys {
             languageList.append(key)
