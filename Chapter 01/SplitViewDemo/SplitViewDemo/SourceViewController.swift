@@ -17,15 +17,13 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
     var languageDictionary:[String:String] = [:]
     let languageSourcePlist = Bundle.main.path(forResource: "languageList", ofType: "plist")
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
 //        read the plist in my code
         let languageDic = Bundle.main.path(forResource: "languageList",ofType:"plist")
         let dic = NSDictionary(contentsOfFile: languageDic!)
-        for (key,value) in dic! {
+        for (key,value) in dic!
+        {
             languageDictionary.updateValue(value as! String, forKey: key as! String)
         }
         
