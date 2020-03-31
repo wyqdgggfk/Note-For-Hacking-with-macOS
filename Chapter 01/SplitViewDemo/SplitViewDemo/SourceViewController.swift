@@ -20,7 +20,10 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
                               "Deutsch":"Sonne kann nicht ohne Schein, Mensch nicht ohne Liebe sein.",
                               "русский язык":"где есть жизнь, есть счастье",
                               "Le français":"Je ne suis pas d'accord avec ce que vous dites, mais je me battrai jusqu'à la mort pour que vous ayez le droit de le dire."]
+   
     var languageList:[String] = []
+    var languageDictionary2:[Dictionary] = []
+    
     let languageSourcePlist = Bundle.main.path(forResource: "languageList", ofType: "plist")
     
     
