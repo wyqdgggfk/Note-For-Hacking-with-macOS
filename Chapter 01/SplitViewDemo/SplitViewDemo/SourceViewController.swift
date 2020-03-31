@@ -21,17 +21,18 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
                               "русский язык":"где есть жизнь, есть счастье",
                               "Le français":"Je ne suis pas d'accord avec ce que vous dites, mais je me battrai jusqu'à la mort pour que vous ayez le droit de le dire."]
     var languageList:[String] = []
+    let languageSourcePlist = Bundle.main.path(forResource: "languageList", ofType: "plist")
+    
+    
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         for key in languageDictionary.keys {
             languageList.append(key)
-        }
-        let fm = FileManager.default
-        let path = Bundle.main.resourcePath!
-        let items = try! fm.contentsOfDirectory(atPath: path)
-        for item in items {
-            print(item)
         }
         
 //        read the plist in my code
