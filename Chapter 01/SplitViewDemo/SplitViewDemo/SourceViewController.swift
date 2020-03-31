@@ -26,7 +26,6 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         for (key,value) in dic! {
             languageDictionary.updateValue(value as! String, forKey: key as! String)
         }
-        print(languageDictionary)
         
         
         for key in languageDictionary.keys {
