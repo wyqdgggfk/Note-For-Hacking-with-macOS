@@ -10,7 +10,55 @@
 
 ## 新建一个 Xcode 工程并搭建基本框架
 
+打开 Xcode,如果您从来没有开发过任何 Xcode 的项目,那么我们会看到下图这个界面:
+
+![image-20200401211456504](https://tva1.sinaimg.cn/large/00831rSTgy1gdekt9gqboj30nk0ec0v2.jpg)
+
+如果您曾经开发过 Xcode 的项目,那么我们在上图中 No Recent Projects 那里,会看到之前开发过的项目名称.
+
+当然啦,这并不是重点,无论看到哪个,我们都是点击上图中的 **Create a new Xcode project** 来新建一个工程项目.
+
+另外,如果您两个图都没有看到,别担心,您只是之前关闭了这个窗口,我们可以在打开 Xcode 后导航到左上角的菜单栏,然后选择 Window > Welcome to Xcode 就能够显示上图的内容.
+
+![Screen Shot 2020-04-01 at 21.21.45](https://tva1.sinaimg.cn/large/00831rSTgy1gdel2yito9j30l700mq2s.jpg)
+
+![Screen Shot 2020-04-01 at 21.22.56](https://tva1.sinaimg.cn/large/00831rSTgy1gdel37swdtj309k0araae.jpg)
+
+还有一种方法可以直接新建一个 Xcode 工程项目,就是打开 Xcode 后,点击左上角菜单栏中的 File > New > Project, 这样也可以直接新建工程项目.
+
+
+
 
 
 # 项目总结
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
