@@ -1,16 +1,14 @@
 # 项目目的
 
-在 macOS 的许多软件中,我们都可以看到有 SpiltView 和 TableView 的身影,比较著名的像 Mac 电脑的 App Store, keynote 等等,还有一些三方开发的像 QQ, 微信,这些软件都使用了 SplitView 和 TableView. 下图的 Mac App Store 整个大的框架就是 SpiltView(蓝色框),而在左侧列表就是一个 TableView:
+1. 在 macOS 的许多软件中,我们都可以看到有 SpiltView 和 TableView 的身影,比较著名的像 Mac 电脑的 App Store, keynote 等等,还有一些三方开发的像 QQ, 微信,这些软件都使用了 SplitView 和 TableView. 下图的 Mac App Store 整个大的框架就是 SpiltView(蓝色框),而在左侧列表就是一个 TableView:
 
 ![Screen Shot 2020-04-01 at 20.49.25](https://tva1.sinaimg.cn/large/00831rSTgy1gdekcr27f3j30vn0mpgvv.jpg)
 
-# 开发目的
-
-展示 SplitView 用法,tableView 用法
-
-如何读取 plist 文件(那怎么用代码创建 plist 文件呢)
+2. 任何一个软件的开发都少不了数据,这些数据可能是软件本身存储的数据,可能是软件运行过程中需要的数据,比如微信的聊天记录就是其存储的数据,而软件的一些诸如图标,按钮名称则是其运行过程中需要的数据.因此我们要考虑一种或多种比较高效的存储数据的方式,方便代码的维护.从简单粗暴的角度上出发,我们的确可以把一些诸如按钮名称,列表内容等写死在程序里,但这会带来一个很明显的问题,万一哪天我们要修改代码,很有可能只是一个数据的改动,就造成了软件的崩溃,甚至是无法运行.在这个简单的 SplitViewDemo 项目中,我们会尝试使用 .plist 文件来存储 TableView 的列表数据,只是为了给读者展示一种使用方法.
 
 # 项目流程
+
+
 
 # 项目总结
 
