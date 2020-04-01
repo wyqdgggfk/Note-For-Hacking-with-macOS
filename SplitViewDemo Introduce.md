@@ -34,11 +34,11 @@
 
 ![image-20200401215822346](https://tva1.sinaimg.cn/large/00831rSTgy1gdem2gnlskj30ts0iutcw.jpg)
 
-上图的信息填写好以后,点击 Next,我们需要明确将项目存储在哪里,此处我只是为了演示方便,
+上图的信息填写好以后,点击 Next,我们需要明确将项目存储在哪里,此处我只是为了演示方便,将项目存放在了桌面上,如果您自己在操作时,建议您把项目放在一个您熟悉的位置,比如 GitHub,或者使用苹果家的 iCloud 功能将其备份好,这一点很重要.
 
+![image-20200401220419284](https://tva1.sinaimg.cn/large/00831rSTgy1gdem8nhf8hj30ts0iujvs.jpg)
 
-
-
+选择好合适的路径存储后,点击 Create,就完成了新项目的创建工作.
 
 
 
