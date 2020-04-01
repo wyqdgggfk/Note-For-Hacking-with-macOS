@@ -30,7 +30,7 @@
 
 ![image-20200401213045954](https://tva1.sinaimg.cn/large/00831rSTgy1gdel9srswqj30ts0jd403.jpg)
 
-然后是一些基本信息的填写,Product Name 就是字面意思,这个软件叫什么名字,Team 就是开发团队,一般来讲我们都需要注册一个开发者账号,当然,如果您开发的软件只是自己用着玩儿,那么可以注册一个免费的开发者账号,如果您想要将自己的软件上架到 App Store,那么您一定要注册一个付费的开发者账号,可以到苹果的开发者官网去注册,面向大众的开发者是 99 美元一年(已经很良心了),面向企业的是
+然后是一些基本信息的填写,Product Name 就是字面意思,这个软件叫什么名字,Team 就是开发团队,一般来讲我们都需要注册一个开发者账号,当然,如果您开发的软件只是自己用着玩儿,那么可以注册一个免费的开发者账号,如果您想要将自己的软件上架到 App Store,那么您一定要注册一个付费的开发者账号,可以到苹果的[开发者软件](https://apps.apple.com/cn/app/apple-developer/id640199958)去注册,面向大众的开发者是 99 美元一年(已经很良心了),面向企业内部的是 299 美元一年. Organization Name 就是您团队的名字,比如 myCompany, Organization Identifier 一般是在您确定好 Organization Name 后直接生成的,比如 com.myCompany.我们要将 Language 设置为 Swift,因为我们的项目会用 Swift 来编写,User Interface 有三种选项, SwiftUI, Storyboard 和 XIB,建议您选择 Storyboard,因为目前苹果的要求,如果您要上架自己的 App,必须是 Storyboard,然后下面的复选框,暂时都先不勾选,因为我们用不上.
 
 
 
