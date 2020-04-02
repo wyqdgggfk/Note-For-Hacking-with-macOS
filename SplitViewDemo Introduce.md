@@ -68,15 +68,13 @@
 
 ![Screen Shot 2020-04-02 at 21.43.04](https://tva1.sinaimg.cn/large/00831rSTgy1gdfrb4z6k5j31c00u0426.jpg)
 
-在 document outline 中选中 Window Controller Scene 下方的 Window Controller,保持它的选中状态,然后键盘上按住 control 键,或者按住鼠标右键,将 Window Controller 拉到 Split View Controller 上,这时会有一条蓝色的线
+在 document outline 中选中 Window Controller Scene 下方的 Window Controller,保持它的选中状态,然后键盘上按住 control 键,或者按住鼠标右键,将 Window Controller 拉到 Split View Controller 上,这时会有一条蓝色的线,松手后我们会看到这个:
 
+![Screen Shot 2020-04-02 at 21.50.02](https://tva1.sinaimg.cn/large/00831rSTgy1gdfrgrt8l7j309o04cwee.jpg)
 
+点击选择 window content,这样我们就建立了一个连接,意思就是上面那个 Window,它的内容就是下面这个 Split View,如下图:
 
-
-
-
-
-
+![Screen Shot 2020-04-02 at 21.57.51](https://tva1.sinaimg.cn/large/00831rSTgy1gdfroir08gj31c00u0779.jpg)
 
 
 
