@@ -78,11 +78,13 @@
 
 ![Screen Shot 2020-04-02 at 21.57.51](https://tva1.sinaimg.cn/large/00831rSTgy1gdfroir08gj31c00u0779.jpg)
 
-刚才我们设置了 Split View Controller,现在要做的就是 Table View Controller 了,像添加 Split View Controller 一样,点击右上角的 "+"
+刚才我们设置了 Split View Controller,现在要做的就是 Table View Controller 了,像添加 Split View Controller 一样,点击右上角的 "+",跟着搜索 Table View,把 Table View 拉出来,放在 Split View Controller 右侧上方的那个 Controller 中,就像下图这样:
 
+![image-20200402230313735](https://tva1.sinaimg.cn/large/00831rSTgy1gdftn388u6j31c00u0dj1.jpg)
 
+跟着我们把 Table View 的那个窗口拉大,直到撑满整个背后的 Controller,就像这样:
 
-
+![image-20200402231130187](https://tva1.sinaimg.cn/large/00831rSTgy1gdftsww1dcj31c00u0juh.jpg)
 
 
 
