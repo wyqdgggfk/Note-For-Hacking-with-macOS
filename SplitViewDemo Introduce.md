@@ -58,9 +58,11 @@
 
 ![Screen Shot 2020-04-02 at 21.32.22](https://tva1.sinaimg.cn/large/00831rSTgy1gdfqxyfxynj31c00u01ac.jpg)
 
+接着,我们会像拼接画像一样,把 SplitView 和 TableView 拼接到界面中去,首先是 Split View Controller,找到 Xcode 右上角的 "+" 图标,点击它,就可以看到系统为我们准备好的各种框架以及一个搜索框,就像这样:
 
+![Screen Shot 2020-04-02 at 21.37.01](https://tva1.sinaimg.cn/large/00831rSTgy1gdfr33v19oj31490u0q5o.jpg)
 
-
+现在,请搜索一下 Split View Controller 并把它拖出来到 Storyboard 上,然后放手
 
 
 
