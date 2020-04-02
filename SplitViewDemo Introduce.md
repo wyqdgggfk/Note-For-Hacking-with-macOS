@@ -86,9 +86,13 @@
 
 ![image-20200402231130187](https://tva1.sinaimg.cn/large/00831rSTgy1gdftsww1dcj31c00u0juh.jpg)
 
+这个时候有一个小小的注意点,我们最终成型的 Demo 只有左侧一个 Table,但如果此时运行一下当前的 App,会发现是这样的:
 
+![Untitled](https://tva1.sinaimg.cn/large/00831rSTgy1gdfu6ozx2jj30k10c2mx8.jpg)
 
+红色圆圈处有一根线,证明左侧实际上有两列 Table,因此我们需要稍微做一些修改,在 document outline 中选中 View Controller Scene > View Controller > Bordered Scroll View - Table View > Clip View > Table View,然后调出它的 Attribute Inspector(快捷键是 option + command+5),把 Columns 的数值调整为 1,就像这样:
 
+![Screen Shot 2020-04-02 at 23.29.40](https://tva1.sinaimg.cn/large/00831rSTgy1gdfuesst0jj31c00u00x5.jpg)
 
 
 
