@@ -62,9 +62,13 @@
 
 ![Screen Shot 2020-04-02 at 21.37.01](https://tva1.sinaimg.cn/large/00831rSTgy1gdfr33v19oj31490u0q5o.jpg)
 
-现在,请搜索一下 Split View Controller 并把它拖出来到 Storyboard 上,然后放手
+现在,请搜索一下 Split View Controller 并把它拖出来到 Storyboard 上,然后放手,此时 Storyboard 界面就已经有了 SplitView,那么和它头顶的 Window 有什么关系,如果这时候直接运行 app 就可以看到 SplitView 了么?答案是否定的,我们还需要把 Window 和 SplitView 连接起来,让它们建立关系.
 
+打开 document outline 窗口,这个窗口是所有按钮,框架,标签的一个显示窗口,通过这个窗口我们可以更加方便准确地选择我们真正需要的东西,document outline 窗口就是如下图红色框选中的区域:
 
+![Screen Shot 2020-04-02 at 21.43.04](https://tva1.sinaimg.cn/large/00831rSTgy1gdfrb4z6k5j31c00u0426.jpg)
+
+在 document outline 中选中 Window Controller Scene 下方的 Window Controller,保持它的选中状态,然后键盘上按住 control 键,或者按住鼠标右键,将 Window Controller 拉到 Split View Controller 上,这时会有一条蓝色的线
 
 
 
