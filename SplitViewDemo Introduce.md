@@ -102,7 +102,7 @@
 
 ![Screen Shot 2020-04-09 at 22.26.45](https://tva1.sinaimg.cn/large/00831rSTgy1gdnvy5u1xvj31c00u0x65.jpg)
 
-
+这个时候如果我们再运行一次 SplitViewDemo，就会发现大体的框架都有了，只要把相应的内容填进去，整个软件就可以算大功告成。
 
 
 
