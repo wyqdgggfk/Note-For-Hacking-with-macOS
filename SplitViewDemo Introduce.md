@@ -96,9 +96,7 @@
 
 然后再运行一遍，此时我们会发现这个 SplitViewDemo 变成了这样子：
 
-
-
-
+![image-20200409222057788](https://tva1.sinaimg.cn/large/00831rSTgy1gdnvotn630j311y0o4t9b.jpg)
 
 
 
