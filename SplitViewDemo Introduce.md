@@ -98,7 +98,9 @@
 
 ![image-20200409222057788](https://tva1.sinaimg.cn/large/00831rSTgy1gdnvotn630j311y0o4t9b.jpg)
 
+当然，在这个粗糙的界面中，有些东西我们是不要的，就是界面左上角那个 table view 的表头，英文是 header，可以简单粗暴地在 xcode 的设置界面将它关闭，在 document outline 中选择第一个 View Controller Scene 下方的 Table View,跟着在它的 Attribute Inspector 里面把 Headers 的勾选去掉即可，如下图所示：
 
+![Screen Shot 2020-04-09 at 22.26.45](https://tva1.sinaimg.cn/large/00831rSTgy1gdnvy5u1xvj31c00u0x65.jpg)
 
 
 
