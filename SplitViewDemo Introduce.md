@@ -128,9 +128,29 @@
 
 ![Screen Shot 2020-04-10 at 22.54.57](https://tva1.sinaimg.cn/large/00831rSTgy1gdp2b1djnvj311z0oy0vu.jpg)
 
-如果我们细心一点就会发现，document outline 中的第一个 View Controller Scene 名字已经变成了 Source View Controller，同时在 Storyboard 中，Split View Controller 下方左侧的 View Controller 灰色字，也变成了 Source View Controller
+如果我们细心一点就会发现，document outline 中的第一个 View Controller Scene 名字已经变成了 Source View Controller，同时在 Storyboard 中，Split View Controller 下方左侧的 View Controller 灰色字，也变成了 Source View Controller，同样的道理，我们再来一次，这次去设置 Detail View Controller。
 
+接着我们需要告诉 Table View，它显示的内容，都被控制的方式，都来自 Souce View Controller，所以在document outline 中，选中 Source View Controller Scene 下面的 Table View，再在键盘上按住 Ctrl 键别松手，把 Table View 拖到 Source View Controller 上去，这时我们会看到：
 
+![image-20200410231006652](https://tva1.sinaimg.cn/large/00831rSTgy1gdp2pxs232j307y09iwep.jpg)
+
+要建议连接，就需要选中 dataSource 和 delegate，连续两次按照上面的操作执行即可。还没完，我们在 SourceViewController.swift 文件中，还需要进行一点小小的修改，把下面这段代码：
+
+```swift
+class SourceViewController: NSViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do view setup here.
+    }
+}
+```
+
+修改成这个样子：
+
+```swift
+
+```
 
 
 
