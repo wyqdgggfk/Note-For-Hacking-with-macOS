@@ -112,7 +112,9 @@
 
 ![image-20200410223012964](https://tva1.sinaimg.cn/large/00831rSTgy1gdp1kg9jodj30ts0homyk.jpg)
 
-设置好后，再次点击 Next，选择相应的存储位置，一般我们都推荐将所有相关的文件
+设置好后，再次点击 Next，就需要选择相应的存储位置，一般我们都推荐将所有相关的文件全部存放在一个指定路径下，就像这样：
+
+![image-20200410223702357](https://tva1.sinaimg.cn/large/00831rSTgy1gdp1rjjyn7j30ts0hoq4q.jpg)
 
 
 
