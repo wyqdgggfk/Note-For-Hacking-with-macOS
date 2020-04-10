@@ -104,13 +104,15 @@
 
 这个时候如果我们再运行一次 SplitViewDemo，就会发现大体的框架都有了，只要把相应的内容填进去，整个软件就可以算大功告成。
 
-既然说到填充内容，我们需要先做一件事情，两个 View Controller Scene 还没有它们的 controller 文件，我们需要创建两个 Controller 文件来控制 SplitViewDemo 中两边显示的内容，左侧是一个列表，右侧是根据选择列表中某个选项后，相应变化的 Label。
+既然说到填充内容，我们需要先做一件事情，两个 View Controller Scene 还没有它们的 controller 文件，我们需要创建两个 Controller 文件来控制 SplitViewDemo 中两边显示的内容，左侧是一个列表，右侧是根据选择列表中某个选项后，相应变化的 Label。接下来就是定义 Controller 了，首先选择 Xcode 中的 File > New > File... 将出现以下窗口：
 
+![image-20200410221045212](https://tva1.sinaimg.cn/large/00831rSTgy1gdp1069uhhj30ts0hoac0.jpg)
 
+此处我们需要选择的是 macOS 下的 Cocoa Class,点击 Next 后，按照下面的图示进行设置，注意**一定不要勾选** Also create XIB file for user interface:
 
+![image-20200410223012964](https://tva1.sinaimg.cn/large/00831rSTgy1gdp1kg9jodj30ts0homyk.jpg)
 
-
-
+设置好后，再次点击 Next，选择相应的存储位置，一般我们都推荐将所有相关的文件
 
 
 
