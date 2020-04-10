@@ -116,7 +116,11 @@
 
 ![image-20200410223702357](https://tva1.sinaimg.cn/large/00831rSTgy1gdp1rjjyn7j30ts0hoq4q.jpg)
 
+此时我们就在 SplitViewDemo.app 这个项目中成功创建了一个 SourceViewController.swift 文件，如下图所示：
 
+![Screen Shot 2020-04-10 at 22.38.59](https://tva1.sinaimg.cn/large/00831rSTgy1gdp1y3qwmvj30ts0eydhv.jpg)
+
+稍后就会用这个文件来控制 SplitViewDemo 左侧列表显示的内容，不过现在我们还要照着上面的方法创建另一个 DetailViewController.swift 文件，具体方法就不赘述了，完成以后应该像下面这个样子：
 
 
 
