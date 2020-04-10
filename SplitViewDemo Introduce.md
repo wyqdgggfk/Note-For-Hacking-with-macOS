@@ -122,7 +122,7 @@
 
 稍后就会用这个文件来控制 SplitViewDemo 左侧列表显示的内容，不过现在我们还要照着上面的方法创建另一个 DetailViewController.swift 文件，具体方法就不赘述了，完成以后应该像下面这个样子：
 
-
+![Screen Shot 2020-04-10 at 22.46.35](https://tva1.sinaimg.cn/large/00831rSTgy1gdp229rmnyj30ts0dataj.jpg)
 
 
 
