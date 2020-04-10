@@ -124,9 +124,11 @@
 
 ![Screen Shot 2020-04-10 at 22.46.35](https://tva1.sinaimg.cn/large/00831rSTgy1gdp229rmnyj30ts0dataj.jpg)
 
+两个控制文件都创建好了，Storyboard 里面该有的控件也有了，那就应该让控制文件与控件产生关联，打开 Main.storyboard，并在 document outline 中选择第一个 View Controller Scene 下面的 View Controller Scene，并打开其 Identity Inspector，在 **Custom Class** 中将 Class 设置成 SourceViewController，如下图：
 
+![Screen Shot 2020-04-10 at 22.54.57](https://tva1.sinaimg.cn/large/00831rSTgy1gdp2b1djnvj311z0oy0vu.jpg)
 
-
+如果我们细心一点就会发现，document outline 中的第一个 View Controller Scene 名字已经变成了 Source View Controller，同时在 Storyboard 中，Split View Controller 下方左侧的 View Controller 灰色字，也变成了 Source View Controller
 
 
 
