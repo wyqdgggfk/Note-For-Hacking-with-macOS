@@ -158,7 +158,7 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 }
 ```
 
-
+也就是在 NSViewController 的后面，多加了NSTableViewDataSource 和 NSTableViewDelegate，请注意用逗号隔开
 
 
 
