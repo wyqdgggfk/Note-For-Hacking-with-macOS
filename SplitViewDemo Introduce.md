@@ -149,7 +149,13 @@ class SourceViewController: NSViewController {
 修改成这个样子：
 
 ```swift
+class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do view setup here.
+    }   
+}
 ```
 
 
