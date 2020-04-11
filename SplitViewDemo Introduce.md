@@ -102,6 +102,8 @@
 
 ![Screen Shot 2020-04-09 at 22.26.45](https://tva1.sinaimg.cn/large/00831rSTgy1gdnvy5u1xvj31c00u0x65.jpg)
 
+同样的操作，我们在下方那个 View Controller  的框架中加入 一个 Label，并把它拉大到充满整个框架。
+
 这个时候如果我们再运行一次 SplitViewDemo，就会发现大体的框架都有了，只要把相应的内容填进去，整个软件就可以算大功告成。
 
 既然说到填充内容，我们需要先做一件事情，两个 View Controller Scene 还没有它们的 controller 文件，我们需要创建两个 Controller 文件来控制 SplitViewDemo 中两边显示的内容，左侧是一个列表，右侧是根据选择列表中某个选项后，相应变化的 Label。接下来就是定义 Controller 了，首先选择 Xcode 中的 File > New > File... 将出现以下窗口：
