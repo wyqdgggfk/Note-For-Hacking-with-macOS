@@ -178,6 +178,133 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 
 ![image-20200411220444238](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdq6g87e04j319a0srn12.jpg)
 
+这个时候我们回到 Main.storyboard ，在 document outline 中点选 Source View Controller Scene，那么 assistant 界面会出现 SourceViewController 的代码界面，在 override func viewDidLoad 这个函数的下方添加一个函数，叫 numberOfRows，就像下面这样：
+
+```swift
+class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate {
+    @IBOutlet var tableView: NSTableView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do view setup here.
+    }
+  // 以下就是我们要添加的 numberOfRows 函数
+    func numberOfRows(in tableView: NSTableView) -> Int {
+        return 100
+    }
+}
+```
+
+然后再运行一下 SplitViewDemo，不出意外的话，我们看到的画面是这样的：
+
+![image-20200411223632100](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdq7daql2ij31b80o2q4q.jpg)
+
+左侧的 table 列表中会出现 100 个 Table View Cell，也就是说 numberOfRows 决定了列表一共有多少行，当然也可能出现一些意外，比如运行时没有任何显示，一片空白，此时建议读者回顾一下，看是否没有在 document outline 中设置 DataSource 和 Delegate，或者在代码里面是不是少了 NSTableViewDataSource 和 NSTableViewDelegate。如果没什么问题，我们继续看看这个 numberOfRows，在实际工作中我们肯定是要动态地确定到底有多少行，而不是写死代码说它就 100 行，而且每行到底显示些什么东西？数据从哪里来？ 这些都是会变化的，我们可以考虑从 excel 读取数据，从 json 读取数据等等，此处显示时我们会从 plist 文件读取数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
