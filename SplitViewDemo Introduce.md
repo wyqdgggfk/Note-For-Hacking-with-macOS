@@ -164,9 +164,9 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 
 ![image-20200411105256567](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdpn19l5rbj31zy0u0jx1.jpg)
 
-选中 Table View 的前提下，按住键盘上的 Ctrl 键，把 Table View 
+选中 Table View 的前提下，按住键盘上的 Ctrl 键，把 Table View 拖出来，拖到 SourceViewController 编辑页面中，并处于 override func viewDidLoad() 的上方，就像下面图中这个样子，然后松手：
 
-
+![Screen Shot 2020-04-11 at 10.57.39](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdpn6m642pj31z40u0q8w.jpg)
 
 
 
