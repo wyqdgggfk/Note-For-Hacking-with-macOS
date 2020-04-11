@@ -134,7 +134,7 @@
 
 ![image-20200410231006652](https://tva1.sinaimg.cn/large/00831rSTgy1gdp2pxs232j307y09iwep.jpg)
 
-要建议连接，就需要选中 dataSource 和 delegate，连续两次按照上面的操作执行即可。还没完，我们在 SourceViewController.swift 文件中，还需要进行一点小小的修改，把下面这段代码：
+要建立连接，就需要选中 dataSource 和 delegate，连续两次按照上面的操作执行即可。还没完，我们在 SourceViewController.swift 文件中，还需要进行一点小小的修改，把下面这段代码：
 
 ```swift
 class SourceViewController: NSViewController {
