@@ -160,7 +160,11 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 
 # 填充具体内容
 
+我们打开 Main.storboard，接下来要选择一些内容，请注意如果要选择某个 Label，或者某个 TableView，都尽量在 document outline 中进行选择，这样能够减少出错的概率。好了，我们当前要在 document outline 中选择的是 Source View Controller Scene 下的 Table View，此时打开 assistant 编辑页面，如果一切顺利，我们会同时打开 Storyboard 和 SourceViewController 的编辑页面，就像下面图中的样子：
 
+![image-20200411105256567](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdpn19l5rbj31zy0u0jx1.jpg)
+
+选中 Table View 的前提下，按住键盘上的 Ctrl 键，把 Table View 
 
 
 
