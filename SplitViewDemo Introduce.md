@@ -138,7 +138,6 @@
 
 ```swift
 class SourceViewController: NSViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
@@ -150,7 +149,6 @@ class SourceViewController: NSViewController {
 
 ```swift
 class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDelegate {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
