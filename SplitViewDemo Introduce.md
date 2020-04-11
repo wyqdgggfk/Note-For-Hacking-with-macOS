@@ -174,7 +174,9 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 
 ![Screen Shot 2020-04-11 at 11.06.37](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdq4otxuanj30y90lowhu.jpg)
 
+同样的操作，这次我们先在 document outline 中选择 Detail View Controller Scene 下的 Label，如果不出意外，那么 assistant 界面会变成 DetailViewController 的代码界面，按住 Ctrl 把 Label 拉到 override func viewDidLoad 的上方，Connection 还是选择 outlet，把 name 设置为 labelText，最后它应该像这个样子：
 
+![image-20200411220444238](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdq6g87e04j319a0srn12.jpg)
 
 
 
