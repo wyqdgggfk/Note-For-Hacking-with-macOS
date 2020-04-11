@@ -168,7 +168,7 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 
 ![Screen Shot 2020-04-11 at 10.57.39](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdpn6m642pj31z40u0q8w.jpg)
 
-
+这个时候我们会看到 Xcode 询问我们要建立一个怎样的连接，是 outlet 还是 action，如果是 outlet，那么它的意思就相当于“参数”，如果是 action，它的意思就相当于操作，会在点击或者按住后执行相应的行为。我们要
 
 
 
