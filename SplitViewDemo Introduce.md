@@ -156,9 +156,9 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 }
 ```
 
-也就是在 NSViewController 的后面，多加了NSTableViewDataSource 和 NSTableViewDelegate，请注意用逗号隔开
+也就是在 NSViewController 的后面，多加了NSTableViewDataSource 和 NSTableViewDelegate，请注意用逗号隔开。这个时候，整个项目的框架部分算是搭好了，只要我们把一些相应的内容填充进去，SplitViewDemo 就会显示我们需要的内容，不过我们得注意的一个点是整个界面的大小，如果我们将 SplitViewDemo 的窗口拉大或者缩小，就会看到它并没有匹配到相应的大小变化，对于这一点，暂时不用去管它，我们会在稍后进行修改。
 
-
+# 填充具体内容
 
 
 
