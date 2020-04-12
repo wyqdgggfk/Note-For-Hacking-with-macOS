@@ -213,9 +213,9 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 
 ![image-20200412143227029](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdqyzz0m0pj31c00u0dis.jpg)
 
+4. 在创建的 Language.plist 文件中，我们点击 Root 旁边的加号，就可以新建信息，要新建的内容可以看看下面的表格：
 
-
-
+![Screen Shot 2020-04-12 at 14.55.33](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdqzpa1tpuj30fi02ydft.jpg)
 
 
 
