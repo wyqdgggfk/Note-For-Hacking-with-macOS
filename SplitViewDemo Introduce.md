@@ -274,7 +274,9 @@ func numberOfRows(in tableView: NSTableView) -> Int {
 
 ![image-20200412162620894](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr2afoxxqj30jt0buwfr.jpg)
 
+然后我们试着运行一下，由于在 plist 文件中我们只设置了五种语言，因此在 App 里面也应该只有五行，就像下面这样：
 
+![image-20200412162739415](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr2bsa82vj30lg0brq35.jpg)
 
 
 
