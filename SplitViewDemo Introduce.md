@@ -201,11 +201,11 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 
 左侧的 table 列表中会出现 100 个 Table View Cell，也就是说 numberOfRows 决定了列表一共有多少行，当然也可能出现一些意外，比如运行时没有任何显示，一片空白，此时建议读者回顾一下，看是否没有在 document outline 中设置 DataSource 和 Delegate，或者在代码里面是不是少了 NSTableViewDataSource 和 NSTableViewDelegate。如果没什么问题，我们继续看看这个 numberOfRows，在实际工作中我们肯定是要动态地确定到底有多少行，而不是写死代码说它就 100 行，而且每行到底显示些什么东西？数据从哪里来？ 这些都是会变化的，我们可以考虑从 excel 读取数据，从 json 读取数据等等，此处显示时我们会从 plist 文件读取数据，那么接下来就是要在 SplitViewDemo 这个项目中加入一个 plist 文件来放数据，具体操作如下：
 
-1. 在 Xcode 中选择屏幕左上角的 File > New > File...
+1. 在 Xcode 中选择屏幕左上角的 File > New > File... 快捷键是 ⌘N；
 
+![Screen Shot 2020-04-12 at 14.24.54](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdqytd5673j31c00u0gp7.jpg)
 
-
-
+2. 
 
 
 
