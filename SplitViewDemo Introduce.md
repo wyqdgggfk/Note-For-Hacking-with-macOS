@@ -260,7 +260,14 @@ for key in languageDictionary.keys
 {
  languageList.append(key)
 }
+```
 
+这个时候，我们知道了要显示的具体内容，也知道要显示多少排，那么刚才的 numberOfRows 函数就可以改一改了：
+
+```swift
+func numberOfRows(in tableView: NSTableView) -> Int {
+        return languageDictionary.count
+}
 ```
 
 
