@@ -242,7 +242,7 @@ var someDictionary:[String:String] = [:]
 
 ```swift
 var languageList:[String] = []
-    var languageDictionary:[String:String] = [:]
+var languageDictionary:[String:String] = [:]
 ```
 
 所有的数据都是来自这个 plist 文件，我们还需要一个办法通过 SourceViewController 来读取 LanguageList.plist 文件，其实也很简单，只要一句代码：
