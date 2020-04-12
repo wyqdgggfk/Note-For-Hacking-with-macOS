@@ -205,13 +205,13 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 
 ![Screen Shot 2020-04-12 at 14.24.54](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdqytd5673j31c00u0gp7.jpg)
 
-2. Xcode 将弹出一个窗口询问我们要创建什么文件，与之前创建 SourceViewController 文件的窗口一样，这里我们要选择的是 macOS 下的 Property List，它在 Resource 这个大分类下方
+2. Xcode 将弹出一个窗口询问我们要创建什么文件，与之前创建 SourceViewController 文件的窗口一样，这里我们要选择的是 macOS 下的 Property List，它在 Resource 这个大分类下方；
 
 ![image-20200412143139328](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdqyz55w98j31c00u0dix.jpg)
 
+3. 点击 Next，Save As 那里把名字设置为 LanguageList，其它的与下图保持一致，然后点击 Create，这样就创建好了一个 plist 文件；
 
-
-
+![image-20200412143227029](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdqyzz0m0pj31c00u0dis.jpg)
 
 
 
