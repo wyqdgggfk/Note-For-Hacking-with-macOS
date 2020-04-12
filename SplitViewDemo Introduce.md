@@ -226,7 +226,7 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 | русский язык |                 где есть жизнь, есть счастье                 |
 | Le français  | Je ne suis pas d'accord avec ce que vous dites, mais je me battrai jusqu'à la mort pour que vous ayez le droit de le dire. |
 
-
+不用去管这些文字的内容，我只是随意用一些翻译软件找了一些各个语言中比较有名的语句，如果有任何纰漏，忽略就好，但如果有任何冒犯，请让我知道。
 
 
 
