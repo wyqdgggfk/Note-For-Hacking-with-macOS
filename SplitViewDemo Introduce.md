@@ -327,7 +327,7 @@ func labelChange(country:String) {
 
 ![image-20200412170035838](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr3a22t77j30ns0c2dgb.jpg)
 
-
+大体上来说，软件编到这个地方，其主体功能已经完善了，现在我们要做的是让它稍微人性化一点，比如在软件刚刚启动时，我们没有选择任何列表的内容，但右侧还是会显示 “Label” 字样，这并不是我们预期的，可以做一个小的修改，让软件在刚刚启动时，Label 的 isHidden 参数为 true，然后
 
 
 
