@@ -303,10 +303,29 @@ func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, ro
 紧接着就要考虑，如何让左侧列表选中某个 cell 选项后，右侧 Label 对应发生变化，显示相应的语句，为此我们需要加入一个 tableViewSelectionDidChange 函数，就像这样：
 
 ```swift
-
+func tableViewSelectionDidChange(_ notification: Notification) {
+        guard tableView.selectedRow != -1 else { return }
+        guard let splitVC = parent as? NSSplitViewController else {return}
+        if let detail = splitVC.children[1] as? DetailViewController
+        {
+            detail.labelChange(country: languageDictionary[languageList[tableView.selectedRow]]!)
+        }
+    }
 ```
 
+此处需要详细解释一下代码，我也看了一会才理解，大意就是，现在 tableview 中选择的行有了变动，我们要让 DetailViewController 知道这个变化，可是 DetailViewController 管的不是 TableView，而是 Label，但是DetailViewController 和 SourceViewController 都 隶属于 SplitViewController 名下，是 SplitViewController 数组中的一员，可以通过 SplitViewController 来转达相应的变化。
 
+另外在上述代码中还调用了 DetailViewController 中的一个函数 labelChange，这个函数还没有在 DetailViewController 进行定义，不能直接用，我们需要在 DetailViewController 中最后添加以下代码：
+
+```swift
+func labelChange(country:String) {
+        labelText.stringValue = country
+}
+```
+
+这样才可以正常使用。试试看，运行一下，如果没有意外，软件运行后应该可以跟随列表的选择而显示不同的语言文字：
+
+![image-20200412170035838](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr3a22t77j30ns0c2dgb.jpg)
 
 
 
