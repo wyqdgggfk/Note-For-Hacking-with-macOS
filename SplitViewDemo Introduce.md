@@ -360,9 +360,13 @@ languageList.sort()
 
 这样就可以实现排序的功能，试试看再运行软件，这下每次运行时，简体中文和繁體中文都会出现在列表的末尾，而不是随机出现。
 
+然后我们接着看，运行这个软件时，如果我们这么大或者缩小软件的窗口就会是这么个效果：
 
+![image-20200412183822148](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr63u52yij30ax0izwen.jpg)
 
+TableView 并没有随着软件窗口的拉伸与压缩而进行相应合适的拉伸和压缩，对于我们这个演示软件来说，它没什么太过复杂的界面，所以可以选中 document outline 中的 SourceViewController Scene > Source View Controller > View > Bordered Scroll View - Table View > Clip View > Table View，然后打开左上角 Editor 菜单，选择 Resolve Auto Layout Issues，然后选择第二个 Reset to Suggested Constraints
 
+![image-20200412184420108](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr6a0crvaj30a5086mxg.jpg)
 
 
 
