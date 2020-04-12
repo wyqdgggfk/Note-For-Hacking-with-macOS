@@ -15,7 +15,7 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 //    I should store the languageList in a plist file
     var languageList:[String] = []
     var languageDictionary:[String:String] = [:]
-    let languageSourcePlist = Bundle.main.path(forResource: "languageList", ofType: "plist")
+//    let languageSourcePlist = Bundle.main.path(forResource: "languageList", ofType: "plist")
     
     override func viewDidLoad() {
         super.viewDidLoad()
