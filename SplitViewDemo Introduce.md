@@ -230,6 +230,18 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 
 ![image-20200412151942845](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr0d3xxg3j31710sr40v.jpg)
 
+每一种语言会对应它后面的一句话，这个形式有点像是字典
+
+```swift
+var someDictionary:[String:String] = [:]
+```
+
+另外，我们只想要把字典的键显示在 table view 中，字典的值根据所选键的不同显示在 Label 里面，那么我们需要一个数组来存储所有的键，所有的数据都是来自这个 plist 文件，我们还需要一个办法通过 SourceViewController 来读取 LanguageList.plist 文件，其实也很简单，只要一句代码：
+
+```swift
+let languageSourcePlist = Bundle.main.path(forResource: "languageList", ofType: "plist")
+```
+
 
 
 
