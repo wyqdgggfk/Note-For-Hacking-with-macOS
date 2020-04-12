@@ -296,7 +296,9 @@ func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, ro
 
 ![image-20200412164728132](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr2weun10j30pl0gwdi5.jpg)
 
+好了，现在再运行一次软件，我们就可以看到相应的列表内容：
 
+![image-20200412164832941](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr2xjnt6vj30m90c2q34.jpg)
 
 
 
