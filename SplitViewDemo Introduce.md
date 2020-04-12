@@ -217,13 +217,14 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 
 ![Screen Shot 2020-04-12 at 14.55.33](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdqzpa1tpuj30fi02ydft.jpg)
 
-
-
-
-
-
-
-
+|     语言     |                             内容                             |
+| :----------: | :----------------------------------------------------------: |
+|   简体中文   | 凤凰台上凤凰游，凤去台空江自流。<br/>吴宫花草埋幽径，晋代衣冠成古丘。<br/>三山半落青天外，二水中分白鹭洲。<br/>总为浮云能蔽日，长安不见使人愁。<br/> |
+|   繁體中文   |                飛雪連天射白鹿,笑書神俠倚碧鴛                 |
+|   English    | e hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty, and the pursuit of Happiness. |
+|   Deutsch    | Sonne kann nicht ohne Schein, Mensch nicht ohne Liebe sein.  |
+| русский язык |                 где есть жизнь, есть счастье                 |
+| Le français  | Je ne suis pas d'accord avec ce que vous dites, mais je me battrai jusqu'à la mort pour que vous ayez le droit de le dire. |
 
 
 
