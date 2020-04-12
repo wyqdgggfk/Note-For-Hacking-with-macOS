@@ -1,3 +1,5 @@
+
+
 # 项目目的
 
 1. 在 macOS 的许多软件中,我们都可以看到有 SpiltView 和 TableView 的身影,比较著名的像 Mac 电脑的 App Store, keynote 等等,还有一些三方开发的像 QQ, 微信,这些软件都使用了 SplitView 和 TableView. 下图的 Mac App Store 整个大的框架就是 SpiltView(蓝色框),而在左侧列表就是一个 TableView:
@@ -48,7 +50,7 @@
 
 ![image-20200401221231968](https://tva1.sinaimg.cn/large/00831rSTgy1gdemh96t3zj311x0u0ta8.jpg)
 
-很普通对不对,没有任何的美化,但作为演示它足够了,在界面的左侧是一个简单的 TableView,右侧是根据选择不同的列表信息后,对应显示的内容.
+很普通对不对,没有任何的美化,但作为演示它足够了,在界面的左侧是一个简单的 TableView，右侧是根据选择不同的列表信息后,对应显示的内容.
 
 如何做出这种效果?在 Xcode 的左侧选择 Main.storyboard,我们会看到这样的界面:
 
