@@ -44,7 +44,7 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         return vw
     }
 
-    func tableViewSelectionDidChange(_ notification: Notification) {
+    func  (_ notification: Notification) {
         guard tableView.selectedRow != -1 else { return }
         guard let splitVC = parent as? NSSplitViewController else {return}
         if let detail = splitVC.children[1] as? DetailViewController
