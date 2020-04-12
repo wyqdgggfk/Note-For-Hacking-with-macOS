@@ -278,6 +278,20 @@ func numberOfRows(in tableView: NSTableView) -> Int {
 
 ![image-20200412162739415](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr2bsa82vj30lg0brq35.jpg)
 
+行数确定好了，我们就要确定每行显示什么内容，在 [Apple 的官方文档中有这么一个方法可以实现显示列表内容](https://developer.apple.com/documentation/appkit/nstableviewdelegate/1527449-tableview)，即 `tableView(_:viewFor:row:)`，具体怎么用，可以看看代码演示：
+
+```swift
+func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
+        // 先创建一个 tableView 的视图，由于只有一列，可直接用列标识符来代表这个视图，并把它伪装成一个 NSTableCellView
+        guard let vw = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else {
+            return nil
+        }
+        //这个视图要显示的内容就是 languageList 列表中对应 row 的字符
+        vw.textField?.stringValue = languageList[row]
+        return vw
+}
+```
+
 
 
 
