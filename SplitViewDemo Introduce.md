@@ -368,7 +368,7 @@ TableView 并没有随着软件窗口的拉伸与压缩而进行相应合适的�
 
 ![image-20200412184420108](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr6a0crvaj30a5086mxg.jpg)
 
-
+最后，软件运行时，其界面顶上的 “Window” 字样并没有太大的作用，可以在 document outline 中选中 Winodw Controller Scene 下方的 Window，然后在其 Attributes Inspector 中勾选 Hide Title。
 
 
 
