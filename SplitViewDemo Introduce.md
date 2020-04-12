@@ -270,7 +270,9 @@ func numberOfRows(in tableView: NSTableView) -> Int {
 }
 ```
 
+目前为止，在 SourceViewController 中的代码应该看起来是这个样子：
 
+![image-20200412162620894](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr2afoxxqj30jt0buwfr.jpg)
 
 
 
