@@ -300,6 +300,12 @@ func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, ro
 
 ![image-20200412164832941](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr2xjnt6vj30m90c2q34.jpg)
 
+紧接着就要考虑，如何让左侧列表选中某个 cell 选项后，右侧 Label 对应发生变化，显示相应的语句，为此我们需要加入一个 tableViewSelectionDidChange 函数，就像这样：
+
+```swift
+
+```
+
 
 
 
