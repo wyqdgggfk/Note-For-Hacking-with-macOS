@@ -236,13 +236,32 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
 var someDictionary:[String:String] = [:]
 ```
 
-另外，我们只想要把字典的键显示在 table view 中，字典的值根据所选键的不同显示在 Label 里面，那么我们需要一个数组来存储所有的键，所有的数据都是来自这个 plist 文件，我们还需要一个办法通过 SourceViewController 来读取 LanguageList.plist 文件，其实也很简单，只要一句代码：
+另外，我们只想要把字典的键显示在 table view 中，字典的值根据所选键的不同显示在 Label 里面，那么我们需要一个数组来存储所有的键，
+
+```swift
+var languageList:[String] = []
+    var languageDictionary:[String:String] = [:]
+```
+
+所有的数据都是来自这个 plist 文件，我们还需要一个办法通过 SourceViewController 来读取 LanguageList.plist 文件，其实也很简单，只要一句代码：
 
 ```swift
 let languageDic = Bundle.main.path(forResource: "languageList",ofType:"plist")
 ```
 
+读取成功后，就需要把键值对存入一个字典，把键存入一个数组，方便取用:
 
+```swift
+let dic = NSDictionary(contentsOfFile: languageDic!)
+for (key,value) in dic! {
+ languageDictionary.updateValue(value as! String, forKey: key as! String)
+}
+for key in languageDictionary.keys 
+{
+ languageList.append(key)
+}
+
+```
 
 
 
