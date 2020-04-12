@@ -294,7 +294,7 @@ func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, ro
 
 此时的代码，应该是这样的：
 
-
+![image-20200412164728132](https://tva1.sinaimg.cn/large/007S8ZIlgy1gdr2weun10j30pl0gwdi5.jpg)
 
 
 
