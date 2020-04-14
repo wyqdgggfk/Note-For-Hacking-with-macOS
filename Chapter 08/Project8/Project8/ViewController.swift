@@ -28,7 +28,7 @@ class ViewController: NSViewController {
         visualEffectView.translatesAutoresizingMaskIntoConstraints = false
         
         // enable the dark vibrancy effect
-        visualEffectView.material = .mediumLight
+        visualEffectView.material = .dark
         
         // force it to remain active even when the window loses focus
         visualEffectView.state = .active
