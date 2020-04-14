@@ -1,4 +1,4 @@
-**Project 08**
+# **Project 08**
 
 Odd One Out
 
