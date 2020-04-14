@@ -9,6 +9,11 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    var visualEffectView: NSVisualEffectView!
+    var gridViewButtons = [NSButton]()
+    let gridSize = 10
+    let gridMargin:CGFloat = 5
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
