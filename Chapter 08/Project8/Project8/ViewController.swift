@@ -40,6 +40,7 @@ class ViewController: NSViewController {
         visualEffectView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         visualEffectView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
     }
+    
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
