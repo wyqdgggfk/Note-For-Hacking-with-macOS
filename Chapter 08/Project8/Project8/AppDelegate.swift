@@ -7,9 +7,10 @@
 //
 
 import Cocoa
+import CoreLocation
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate,CLLocationManagerDelegate {
 
 
 
