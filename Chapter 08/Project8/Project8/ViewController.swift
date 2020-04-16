@@ -39,14 +39,14 @@ class ViewController: NSViewController {
         visualEffectView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         visualEffectView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         visualEffectView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-        
+        createTitle()
     }
     
     func createTitle() -> NSTextField {
         let titleString = "Odd One Out"
         let title = NSTextField(labelWithString: titleString)
-        title.font = NSFont.systemFont(ofSize: 36,weight: .thin)
-        title.textColor = NSColor.green
+        title.font = NSFont.init(name: "Chalkduster", size: 30)
+        title.textColor = NSColor.black
         title.translatesAutoresizingMaskIntoConstraints = false
         
         visualEffectView.addSubview(title)
