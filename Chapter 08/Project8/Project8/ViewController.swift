@@ -35,7 +35,7 @@ class ViewController: NSViewController {
         view.addSubview(visualEffectView)
         
         //pin it to the edges of our window
-        visualEffectView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        visualEffectView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = false
         visualEffectView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         visualEffectView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         visualEffectView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
