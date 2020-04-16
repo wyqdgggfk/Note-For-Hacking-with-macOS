@@ -53,9 +53,29 @@ class ViewController: NSViewController {
         title.topAnchor.constraint(equalTo: visualEffectView.topAnchor,constant: gridMargin).isActive = true
         title.centerXAnchor.constraint(equalTo: visualEffectView.centerXAnchor).isActive = true
         return title
+        }
+    func createButtonArray() -> [[NSButton]] {
+        var rows = [[NSButton]]()
         
+        for _ in 0 ..< gridSize {
+            var row = [NSButton]()
+            for _ in 0 ..< gridSize {
+                let button = NSButton(frame: NSRect(x: 0, y: 0, width: 64, height: 64))
+                button.image = NSImage(named: "penguin")
+                button.setButtonType(.momentaryChange)
+                button.imagePosition = .imageOnly
+                button.focusRingType = .none
+                button.isBordered = false
+                
+                //button.action = #selector(imageClicked)
+                button.target = self
+                gridViewButtons.append(button)
+                row.append(button)
+            }
+            rows.append(row)
+        }
+        return rows
     }
-    
     
     override var representedObject: Any? {
         didSet {
