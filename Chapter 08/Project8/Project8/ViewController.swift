@@ -39,7 +39,7 @@ class ViewController: NSViewController {
         visualEffectView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         visualEffectView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         visualEffectView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-
+        createTitle()
     }
     
     func createTitle() -> NSTextField {
