@@ -45,7 +45,7 @@ class ViewController: NSViewController {
     func createTitle() -> NSTextField {
         let titleString = "Odd One Out"
         let title = NSTextField(labelWithString: titleString)
-        title.font = NSFont.init(name: "Chalkduster", size: 30) // This step can use different system owned font
+        title.font = NSFont.init(name: "Chalkduster", size: 36) // This step can use different system owned font
         title.textColor = NSColor.black
         title.translatesAutoresizingMaskIntoConstraints = false
         
