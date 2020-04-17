@@ -23,6 +23,7 @@ class ViewController: NSViewController {
 
     override func loadView() {
         super.loadView()
+        let title = createTitle()
         
         visualEffectView = NSVisualEffectView()
         visualEffectView.translatesAutoresizingMaskIntoConstraints = false
@@ -77,7 +78,25 @@ class ViewController: NSViewController {
         return rows
     }
     
-    
+    func createGridView(relativeToTitle: NSTextField) {
+        let rows = createButtonArray()
+        let gridView = NSGridView(views: rows)
+        gridView.translatesAutoresizingMaskIntoConstraints = false
+        visualEffectView.addSubview(gridView)
+        
+        gridView.leadingAnchor.constraint(equalTo: visualEffectView.leadingAnchor,constant: gridMargin).isActive = true
+        gridView.trailingAnchor.constraint(equalTo: visualEffectView.trailingAnchor,constant: gridMargin).isActive = true
+        gridView.topAnchor.constraint(equalTo: relativeToTitle.bottomAnchor,constant: gridMargin).isActive = true
+        gridView.bottomAnchor.constraint(equalTo: visualEffectView.bottomAnchor,constant: -gridMargin).isActive = true
+        
+        gridView.columnSpacing = gridMargin / 2
+        gridView.rowSpacing = gridMargin / 2
+        
+        for i in 0 ..< gridSize {
+            gridView.row(at: i).height = 64
+            gridView.column(at: i).width = 64
+        }
+    }
     
     override var representedObject: Any? {
         didSet {
