@@ -54,6 +54,7 @@ class ViewController: NSViewController {
         title.centerXAnchor.constraint(equalTo: visualEffectView.centerXAnchor).isActive = true
         return title
         }
+    
     func createButtonArray() -> [[NSButton]] {
         var rows = [[NSButton]]()
         for _ in 0 ..< gridSize {
