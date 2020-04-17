@@ -81,7 +81,7 @@ class ViewController: NSViewController {
     }
     
     func createGridView(relativeToTitle: NSTextField) {
-        let rows = createButtonArray()
+        let rows = createButtonArray() //这将是一个二维数组
         let gridView = NSGridView(views: rows)
         gridView.translatesAutoresizingMaskIntoConstraints = false
         visualEffectView.addSubview(gridView)
