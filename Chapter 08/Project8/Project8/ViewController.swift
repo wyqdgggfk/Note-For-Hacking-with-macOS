@@ -56,7 +56,6 @@ class ViewController: NSViewController {
         }
     func createButtonArray() -> [[NSButton]] {
         var rows = [[NSButton]]()
-        
         for _ in 0 ..< gridSize {
             var row = [NSButton]()
             for _ in 0 ..< gridSize {
