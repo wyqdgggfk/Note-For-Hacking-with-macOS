@@ -23,7 +23,7 @@ class ViewController: NSViewController {
 
     override func loadView() {
         super.loadView()
-        let title = createTitle()
+        
         
         visualEffectView = NSVisualEffectView()
         visualEffectView.translatesAutoresizingMaskIntoConstraints = false
@@ -40,14 +40,16 @@ class ViewController: NSViewController {
         visualEffectView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         visualEffectView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         visualEffectView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-        createTitle()
+        let title = createTitle()
+        createGridView(relativeToTitle: title)
+        
     }
     
     func createTitle() -> NSTextField {
         let titleString = "Odd One Out"
         let title = NSTextField(labelWithString: titleString)
         title.font = NSFont.init(name: "Chalkduster", size: 36) // This step can use different system owned font
-        title.textColor = NSColor.black
+        title.textColor = NSColor.green
         title.translatesAutoresizingMaskIntoConstraints = false
         
         visualEffectView.addSubview(title)
