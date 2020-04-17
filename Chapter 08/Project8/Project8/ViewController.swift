@@ -79,7 +79,7 @@ class ViewController: NSViewController {
         }
         return rows
     }
-    
+    // 创建 GridView
     func createGridView(relativeToTitle: NSTextField) {
         let rows = createButtonArray() //这将是一个二维数组
         let gridView = NSGridView(views: rows)
