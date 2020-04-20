@@ -40,7 +40,6 @@ class ViewController: NSViewController {
         visualEffectView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         let title = createTitle()
         createGridView(relativeToTitle: title)
-        
     }
     
     func createTitle() -> NSTextField {
