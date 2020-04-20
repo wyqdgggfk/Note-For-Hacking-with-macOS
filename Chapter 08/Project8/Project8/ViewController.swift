@@ -136,7 +136,7 @@ class ViewController: NSViewController {
             }
             // if we've reached the end of the animal types
             if itemCount == images.count {
-                // go back to the start -1, not 0, because we don't want to place the odd animal
+                // go back to the start - 1, not 0, because we don't want to place the odd animal
                 itemCount = 1
             }
         }
