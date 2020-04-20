@@ -15,7 +15,6 @@ class ViewController: NSViewController {
     let gridMargin:CGFloat = 5
     var images = ["elephant","giraffe","hippo","monkey","panda","parrot","penguin","pig","rabbit","snake"]
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
