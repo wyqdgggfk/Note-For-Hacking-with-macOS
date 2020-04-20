@@ -127,9 +127,25 @@ class ViewController: NSViewController {
             
             // set its image to be the current animal
             currentButton.image = NSImage(named: images[itemCount])
+            
+            // mark that we've placed another animal in this pair
+            numUsed += 1
+            
+            // if we have placed two animals of this type
+            if numUsed == 2 {
+                //reset the counter
+                numUsed = 0
+                
+                //place the next animal type
+                itemCount += 1
+            }
+            
+            // if we've reached the end of the animal types
+            if itemCount == images.count {
+                // go back to the start -1, not 0, because we don't want to place the odd animal
+                itemCount = 1
+            }
         }
-        
-        
     }
     
     
