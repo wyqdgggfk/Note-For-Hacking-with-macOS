@@ -100,7 +100,28 @@ class ViewController: NSViewController {
             gridView.column(at: i).width = 64
         }
     }
-    
+    func generateLayout(item: Int) {
+        // reset the game board
+        for button in gridViewButtons {
+            button.tag = 0
+            button.image = nil
+        }
+        // randomize the buttons and animal images
+        gridViewButtons.shuffle()
+        images.shuffle()
+        
+        // create our two proerties to place animals in pairs
+        var numUsed = 0
+        var itemCount = 1
+        
+        // create the odd animal by hand, giving it the tag 2,"correct answer"
+        let firstButton = gridViewButtons[0]
+        firstButton.tag = 2
+        firstButton.image = NSImage(named: images[0])
+        
+        
+        
+    }
     
     
     
