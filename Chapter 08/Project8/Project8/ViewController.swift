@@ -61,7 +61,7 @@ class ViewController: NSViewController {
             var row = [NSButton]()
             for _ in 0 ..< gridSize {
                 let button = NSButton(frame: NSRect(x: 0, y: 0, width: 64, height: 64))
-                button.image = NSImage(named: "penguin")
+//                button.image = NSImage(named: "penguin")
                 button.setButtonType(.momentaryChange)
                 button.imagePosition = .imageOnly
                 button.focusRingType = .none
