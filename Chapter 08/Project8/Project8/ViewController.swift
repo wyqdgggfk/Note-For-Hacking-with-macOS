@@ -100,7 +100,7 @@ class ViewController: NSViewController {
             gridView.column(at: i).width = 64
         }
     }
-    func generateLayout(item: Int) {
+    func generateLayout(items: Int) {
         // reset the game board
         for button in gridViewButtons {
             button.tag = 0
@@ -119,6 +119,15 @@ class ViewController: NSViewController {
         firstButton.tag = 2
         firstButton.image = NSImage(named: images[0])
         
+        // now create all the rest of the animals
+        for i in 1 ..< items {
+            // pull out the button at this location and give it the tag 1, "wrong answer"
+            let currentButton = gridViewButtons[i]
+            currentButton.tag = 1
+            
+            // set its image to be the current animal
+            currentButton.image = NSImage(named: images[itemCount])
+        }
         
         
     }
