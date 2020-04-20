@@ -23,8 +23,6 @@ class ViewController: NSViewController {
 
     override func loadView() {
         super.loadView()
-        
-        
         visualEffectView = NSVisualEffectView()
         visualEffectView.translatesAutoresizingMaskIntoConstraints = false
         
