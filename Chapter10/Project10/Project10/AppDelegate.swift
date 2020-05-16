@@ -11,8 +11,15 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
-
+    let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+    
+    func addConfigurationMenuItem() {
+        let separator = NSMenuItem(title: "Setting", action: #selector(showSettings), keyEquivalent: "")
+        statusItem.menu?.addItem(separator)
+    }
+    @objc func showSettings(_ sender:NSMenuItem){
+    }
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
     }
