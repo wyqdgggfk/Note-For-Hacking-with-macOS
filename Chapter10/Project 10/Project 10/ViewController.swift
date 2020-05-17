@@ -9,7 +9,7 @@
 import Cocoa
 
 class ViewController: NSViewController {
-    @IBOutlet var mapView: MKMapView!
+    @IBOutlet weak var mapView: MKMapView!
     @IBOutlet var apiKey: NSTextField!
     @IBOutlet var statusBarOption: NSPopUpButton!
     @IBOutlet var units: NSSegmentedControl!
