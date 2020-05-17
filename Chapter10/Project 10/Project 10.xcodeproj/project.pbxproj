@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		968ECFF02471482B00C6214F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		96CCE3992470DB27008F9476 /* Project 10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CCE39C2470DB27008F9476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96CCE39E2470DB27008F9476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,11 +35,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		968ECFEF2471482B00C6214F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968ECFF02471482B00C6214F /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96CCE3902470DB27008F9476 = {
 			isa = PBXGroup;
 			children = (
 				96CCE39B2470DB27008F9476 /* Project 10 */,
 				96CCE39A2470DB27008F9476 /* Products */,
+				968ECFEF2471482B00C6214F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
