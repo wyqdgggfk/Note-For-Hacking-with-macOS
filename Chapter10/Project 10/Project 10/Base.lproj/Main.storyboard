@@ -768,6 +768,10 @@
                             </textField>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="apiKey" destination="Sxn-oW-Zz9" id="wt5-Fe-Qvi"/>
+                        <outlet property="mapView" destination="w3Z-9a-R7A" id="65h-Ah-qAd"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

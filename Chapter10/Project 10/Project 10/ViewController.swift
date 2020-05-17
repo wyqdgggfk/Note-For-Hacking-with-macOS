@@ -9,7 +9,9 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    @IBOutlet var mapView: MKMapView!
+    @IBOutlet var apiKey: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
