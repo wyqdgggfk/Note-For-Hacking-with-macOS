@@ -756,6 +756,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="showPoweredBy:" target="XfG-lQ-9wD" id="kXe-UV-eNA"/>
+                                </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4hQ-09-YIo">
                                 <rect key="frame" x="18" y="110" width="71" height="17"/>
@@ -771,6 +774,8 @@
                     <connections>
                         <outlet property="apiKey" destination="Sxn-oW-Zz9" id="wt5-Fe-Qvi"/>
                         <outlet property="mapView" destination="w3Z-9a-R7A" id="65h-Ah-qAd"/>
+                        <outlet property="statusBarOption" destination="FYd-Mi-dY0" id="KTE-1D-AsJ"/>
+                        <outlet property="units" destination="FQW-gc-CUc" id="1pK-lX-Rkm"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

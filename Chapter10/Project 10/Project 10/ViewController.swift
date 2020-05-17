@@ -11,6 +11,8 @@ import Cocoa
 class ViewController: NSViewController {
     @IBOutlet var mapView: MKMapView!
     @IBOutlet var apiKey: NSTextField!
+    @IBOutlet var statusBarOption: NSPopUpButton!
+    @IBOutlet var units: NSSegmentedControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +27,8 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func showPoweredBy(_ sender: NSButton) {
+    }
+    
 }
 
