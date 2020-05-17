@@ -25,7 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        statusItem.button?.title = "🐶"
+        statusItem.button?.title = "Fetching..."
         statusItem.menu = NSMenu()
         addConfigurationMenuItem()
     }

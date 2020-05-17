@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <plugIn identifier="com.apple.MapKitIBPlugin" version="16096"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -685,8 +686,114 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Project10" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="550"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <mapView mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Cqv-xf-ozG">
+                                <rect key="frame" x="20" y="183" width="560" height="347"/>
+                            </mapView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="X0S-3r-cG7">
+                                <rect key="frame" x="18" y="144" width="71" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="msg-yE-CwZ"/>
+                                </constraints>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="API Key:" id="dAM-Yh-Oci">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="q0q-Ih-CGa">
+                                <rect key="frame" x="97" y="141" width="483" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="tSy-5X-hvi">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gLq-1j-phM">
+                                <rect key="frame" x="95" y="104" width="488" height="25"/>
+                                <popUpButtonCell key="cell" type="push" title="Automatically cycle through all readouts" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="-1" imageScaling="proportionallyDown" inset="2" selectedItem="6Nt-We-hsV" id="bfV-qV-8c9">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <menu key="menu" id="JO9-ag-wMa">
+                                        <items>
+                                            <menuItem title="Automatically cycle through all readouts" state="on" tag="-1" id="6Nt-We-hsV"/>
+                                            <menuItem isSeparatorItem="YES" id="uCr-Z8-WnC"/>
+                                            <menuItem title="Show summary text" id="yya-nX-mOD"/>
+                                            <menuItem title="Show current temperature" tag="1" id="aGD-Jo-Wbx"/>
+                                            <menuItem title="Show chance of rain" tag="2" id="7IQ-Qw-lFM">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Show cloud cover" tag="3" id="aNz-MS-1js">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YBd-lp-bJV">
+                                <rect key="frame" x="18" y="72" width="71" height="17"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Units:" id="0us-Hu-4Tw">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lB8-TN-5wU">
+                                <rect key="frame" x="95" y="68" width="135" height="24"/>
+                                <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="4hw-PX-LAO">
+                                    <font key="font" metaFont="system"/>
+                                    <segments>
+                                        <segment label="Metric"/>
+                                        <segment label="Imperial" selected="YES" tag="1"/>
+                                    </segments>
+                                </segmentedCell>
+                            </segmentedControl>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="R2m-9A-prt">
+                                <rect key="frame" x="417" y="13" width="169" height="32"/>
+                                <buttonCell key="cell" type="push" title="Powered by Dark Sky" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ScF-Li-LfC">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Jbq-xp-m6l">
+                                <rect key="frame" x="18" y="110" width="71" height="17"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Status bar:" id="R2y-bR-0Bs">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Jbq-xp-m6l" firstAttribute="leading" secondItem="YBd-lp-bJV" secondAttribute="leading" id="1pf-II-C6H"/>
+                            <constraint firstItem="Cqv-xf-ozG" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="3em-f6-F5h"/>
+                            <constraint firstItem="YBd-lp-bJV" firstAttribute="firstBaseline" secondItem="lB8-TN-5wU" secondAttribute="firstBaseline" id="5Cm-IZ-Q3d"/>
+                            <constraint firstItem="Jbq-xp-m6l" firstAttribute="trailing" secondItem="YBd-lp-bJV" secondAttribute="trailing" id="8BI-ab-04n"/>
+                            <constraint firstItem="Cqv-xf-ozG" firstAttribute="trailing" secondItem="q0q-Ih-CGa" secondAttribute="trailing" id="DWj-g9-t1G"/>
+                            <constraint firstItem="gLq-1j-phM" firstAttribute="trailing" secondItem="R2m-9A-prt" secondAttribute="trailing" id="Dw4-LS-dg2"/>
+                            <constraint firstItem="q0q-Ih-CGa" firstAttribute="leading" secondItem="X0S-3r-cG7" secondAttribute="trailing" constant="10" id="Fc6-fz-Qmp"/>
+                            <constraint firstItem="R2m-9A-prt" firstAttribute="top" secondItem="gLq-1j-phM" secondAttribute="bottom" constant="66" id="GVS-s1-eWA"/>
+                            <constraint firstItem="X0S-3r-cG7" firstAttribute="firstBaseline" secondItem="q0q-Ih-CGa" secondAttribute="firstBaseline" id="GbP-Zr-QLn"/>
+                            <constraint firstItem="lB8-TN-5wU" firstAttribute="top" secondItem="gLq-1j-phM" secondAttribute="bottom" constant="16" id="J9p-oB-2Oh"/>
+                            <constraint firstItem="lB8-TN-5wU" firstAttribute="baseline" secondItem="YBd-lp-bJV" secondAttribute="firstBaseline" id="Qt5-TM-SAN"/>
+                            <constraint firstItem="Cqv-xf-ozG" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" symbolic="YES" id="RAy-Bj-bR4"/>
+                            <constraint firstAttribute="trailing" secondItem="Cqv-xf-ozG" secondAttribute="trailing" constant="20" symbolic="YES" id="S18-Uh-YBG"/>
+                            <constraint firstItem="gLq-1j-phM" firstAttribute="top" secondItem="q0q-Ih-CGa" secondAttribute="bottom" constant="13" id="V5h-Ky-49i"/>
+                            <constraint firstItem="q0q-Ih-CGa" firstAttribute="trailing" secondItem="gLq-1j-phM" secondAttribute="trailing" id="dRN-jm-MFS"/>
+                            <constraint firstItem="q0q-Ih-CGa" firstAttribute="leading" secondItem="gLq-1j-phM" secondAttribute="leading" id="ebh-R1-JwT"/>
+                            <constraint firstItem="X0S-3r-cG7" firstAttribute="trailing" secondItem="Jbq-xp-m6l" secondAttribute="trailing" id="fAc-wz-ape"/>
+                            <constraint firstItem="YBd-lp-bJV" firstAttribute="centerY" secondItem="lB8-TN-5wU" secondAttribute="centerY" id="ggY-KJ-B3B"/>
+                            <constraint firstItem="X0S-3r-cG7" firstAttribute="baseline" secondItem="q0q-Ih-CGa" secondAttribute="baseline" id="h2S-pp-MJq"/>
+                            <constraint firstItem="X0S-3r-cG7" firstAttribute="leading" secondItem="Jbq-xp-m6l" secondAttribute="leading" id="hFi-MI-bCd"/>
+                            <constraint firstItem="Jbq-xp-m6l" firstAttribute="baseline" secondItem="gLq-1j-phM" secondAttribute="firstBaseline" id="ifG-no-PVt"/>
+                            <constraint firstItem="q0q-Ih-CGa" firstAttribute="top" secondItem="Cqv-xf-ozG" secondAttribute="bottom" constant="20" id="oOZ-bV-AWT"/>
+                            <constraint firstItem="Cqv-xf-ozG" firstAttribute="leading" secondItem="X0S-3r-cG7" secondAttribute="leading" id="qZM-pF-IDM"/>
+                            <constraint firstItem="Jbq-xp-m6l" firstAttribute="top" secondItem="X0S-3r-cG7" secondAttribute="bottom" constant="17" id="s0U-1M-MqR"/>
+                            <constraint firstAttribute="bottom" secondItem="R2m-9A-prt" secondAttribute="bottom" constant="20" symbolic="YES" id="z7l-dF-Ma9"/>
+                            <constraint firstItem="gLq-1j-phM" firstAttribute="leading" secondItem="lB8-TN-5wU" secondAttribute="leading" id="z8G-UA-7Km"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
