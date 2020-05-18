@@ -50,6 +50,7 @@ class ViewController: NSViewController {
     }
 
     @IBAction func showPoweredBy(_ sender: NSButton) {
+        NSWorkspace.shared.open(URL(string: "https://darksky.net/poweredby/")!)
     }
     
 }
