@@ -17,7 +17,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        statusItem.button?.title = "WeatherBar"
+        let icon = NSImage(named: "statusIcon")
+        icon?.isTemplate = false // best for dark mode
+        statusItem.button?.image = icon
+//        statusItem.button?.title = "WeatherBar"
         statusItem.menu = statusMenu // Fullfill the status bar with detail menu items 
     }
 
