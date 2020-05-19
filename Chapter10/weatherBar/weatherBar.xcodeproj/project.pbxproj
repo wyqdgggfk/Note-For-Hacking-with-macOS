@@ -11,6 +11,7 @@
 		968ED0042472D5BA00C6214F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968ED0032472D5BA00C6214F /* Assets.xcassets */; };
 		968ED0072472D5BA00C6214F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968ED0052472D5BA00C6214F /* MainMenu.xib */; };
 		96D9F8C224742C7900897CC5 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9F8C124742C7900897CC5 /* StatusMenuController.swift */; };
+		96D9F8C424742FDE00897CC5 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9F8C324742FDE00897CC5 /* WeatherAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		968ED0082472D5BA00C6214F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		968ED0092472D5BA00C6214F /* weatherBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = weatherBar.entitlements; sourceTree = "<group>"; };
 		96D9F8C124742C7900897CC5 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		96D9F8C324742FDE00897CC5 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				968ED0012472D5B800C6214F /* AppDelegate.swift */,
 				968ED0032472D5BA00C6214F /* Assets.xcassets */,
 				968ED0052472D5BA00C6214F /* MainMenu.xib */,
+				96D9F8C324742FDE00897CC5 /* WeatherAPI.swift */,
 				96D9F8C124742C7900897CC5 /* StatusMenuController.swift */,
 				968ED0082472D5BA00C6214F /* Info.plist */,
 				968ED0092472D5BA00C6214F /* weatherBar.entitlements */,
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D9F8C424742FDE00897CC5 /* WeatherAPI.swift in Sources */,
 				96D9F8C224742C7900897CC5 /* StatusMenuController.swift in Sources */,
 				968ED0022472D5B800C6214F /* AppDelegate.swift in Sources */,
 			);
