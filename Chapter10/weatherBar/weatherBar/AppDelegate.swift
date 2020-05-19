@@ -12,12 +12,13 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
     @IBOutlet weak var statusMenu: NSMenu!
     
+    //Create a Status Bar Menu
     let statusItem = NSStatusBar.system.statusItem(withLength:NSStatusItem.variableLength)
     
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         statusItem.button?.title = "WeatherBar"
-        statusItem.menu = statusMenu
+        statusItem.menu = statusMenu // Fullfill the status bar with detail menu items 
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
