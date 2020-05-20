@@ -8,7 +8,7 @@
 
 import Foundation
 class WeatherAPI {
-    let API_KEY = "Your-API-Key-Here"
+    let API_KEY = "40bb0bd76a057a1f9f5e8ae01fbde246"
     let BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
     
     func fetchWeather(_ query: String) {
