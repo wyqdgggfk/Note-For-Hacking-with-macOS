@@ -11,12 +11,15 @@ class WeatherAPI {
     let API_KEY = "40bb0bd76a057a1f9f5e8ae01fbde246"
     let BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
     
+    
+  //  "api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}"
+    
     func fetchWeather(_ query: String) {
         let session = URLSession.shared
         // url-escape the query string we're passed
         let escapedQuery = query.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
         
-        let url = URL(string: "\(BASE_URL)?APPID=\(API_KEY)&units=imperial&q=\(escapedQuery!)")
+        let url = URL(string: "\(BASE_URL)?q=\(escapedQuery!)&appid={\(API_KEY)}")
         let task = session.dataTask(with: url!){data,response,err in
             //first check for a hard error
             if let error = err {

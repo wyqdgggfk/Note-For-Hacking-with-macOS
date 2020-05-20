@@ -13,6 +13,8 @@ class StatusMenuController: NSObject {
     
     //Create a Status Bar Menu
     let statusItem = NSStatusBar.system.statusItem(withLength:NSStatusItem.variableLength)
+    let weatherAPI = WeatherAPI()
+    
     
     override func awakeFromNib() {
         let icon = NSImage(named: "statusIcon")
@@ -22,5 +24,9 @@ class StatusMenuController: NSObject {
     }
     @IBAction func quitClicked(sender: NSMenuItem) {
         NSApplication.shared.terminate(self)
+    }
+    
+    @IBAction func updateClicked(_ sender: NSMenuItem) {
+        weatherAPI.fetchWeather("Seattle")
     }
 }
