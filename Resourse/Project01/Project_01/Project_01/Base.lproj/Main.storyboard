@@ -693,6 +693,9 @@
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
                     </window>
+                    <connections>
+                        <segue destination="CGw-Ez-4sy" kind="relationship" relationship="window.shadowedContentViewController" id="1qL-xa-dFJ"/>
+                    </connections>
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
