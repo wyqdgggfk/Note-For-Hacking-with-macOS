@@ -730,8 +730,8 @@
         <scene sceneID="Zjj-iC-Ccr">
             <objects>
                 <viewController id="3bE-xP-ebW" customClass="SourceViewController" customModule="Project_01" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" misplaced="YES" id="lgL-9e-aab">
-                        <rect key="frame" x="0.0" y="0.0" width="100" height="300"/>
+                    <view key="view" id="lgL-9e-aab">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLV-Gv-WZ8">
@@ -766,9 +766,9 @@
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="1ds-DN-Mre">
                                                                     <rect key="frame" x="0.0" y="0.0" width="445" height="17"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="17" id="PVF-sd-MZv"/>
+                                                                        <constraint firstAttribute="height" constant="17" id="bLz-m7-BEt"/>
                                                                     </constraints>
-                                                                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="Qfv-GP-EH8">
+                                                                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cells" id="Qfv-GP-EH8">
                                                                         <font key="font" metaFont="system"/>
                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -776,9 +776,9 @@
                                                                 </textField>
                                                             </subviews>
                                                             <constraints>
-                                                                <constraint firstItem="1ds-DN-Mre" firstAttribute="centerY" secondItem="XwZ-7G-fBU" secondAttribute="centerY" id="xjU-gF-rUA"/>
-                                                                <constraint firstItem="1ds-DN-Mre" firstAttribute="centerX" secondItem="XwZ-7G-fBU" secondAttribute="centerX" id="yvK-0h-ZSE"/>
-                                                                <constraint firstItem="1ds-DN-Mre" firstAttribute="leading" secondItem="XwZ-7G-fBU" secondAttribute="leading" constant="2" id="yxg-j7-K5p"/>
+                                                                <constraint firstItem="1ds-DN-Mre" firstAttribute="centerX" secondItem="XwZ-7G-fBU" secondAttribute="centerX" id="NQq-Jb-xGq"/>
+                                                                <constraint firstItem="1ds-DN-Mre" firstAttribute="centerY" secondItem="XwZ-7G-fBU" secondAttribute="centerY" id="e5A-x8-cGj"/>
+                                                                <constraint firstItem="1ds-DN-Mre" firstAttribute="leading" secondItem="XwZ-7G-fBU" secondAttribute="leading" constant="2" id="t5i-LL-XHA"/>
                                                             </constraints>
                                                             <connections>
                                                                 <outlet property="textField" destination="1ds-DN-Mre" id="JEk-Nx-iyh"/>
@@ -806,10 +806,10 @@
                             </scrollView>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="gLV-Gv-WZ8" secondAttribute="trailing" id="0jH-hj-77P"/>
-                            <constraint firstAttribute="bottom" secondItem="gLV-Gv-WZ8" secondAttribute="bottom" id="Nh9-xv-2Mf"/>
-                            <constraint firstItem="gLV-Gv-WZ8" firstAttribute="leading" secondItem="lgL-9e-aab" secondAttribute="leading" id="jfU-Lz-4uq"/>
-                            <constraint firstItem="gLV-Gv-WZ8" firstAttribute="top" secondItem="lgL-9e-aab" secondAttribute="top" id="uq7-0w-QIC"/>
+                            <constraint firstAttribute="bottom" secondItem="gLV-Gv-WZ8" secondAttribute="bottom" id="PTf-0r-myV"/>
+                            <constraint firstItem="gLV-Gv-WZ8" firstAttribute="top" secondItem="lgL-9e-aab" secondAttribute="top" id="bRo-xe-vnf"/>
+                            <constraint firstItem="gLV-Gv-WZ8" firstAttribute="leading" secondItem="lgL-9e-aab" secondAttribute="leading" id="qiq-uP-oPB"/>
+                            <constraint firstAttribute="trailing" secondItem="gLV-Gv-WZ8" secondAttribute="trailing" constant="-200" id="zek-Da-EtE"/>
                         </constraints>
                     </view>
                     <connections>
@@ -818,7 +818,7 @@
                 </viewController>
                 <customObject id="5tO-hO-SaM" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="760" y="607"/>
+            <point key="canvasLocation" x="619" y="607"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="eti-YN-eZ8">
@@ -841,12 +841,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="detailView" destination="ubw-Oa-vzt" id="8Di-pU-cC6"/>
                         <outlet property="imageView" destination="Hsu-zX-Jjp" id="Gx0-tw-9Pc"/>
                     </connections>
                 </viewController>
                 <customObject id="vBz-us-cRY" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="760" y="979"/>
+            <point key="canvasLocation" x="769" y="979"/>
         </scene>
     </scenes>
 </document>
