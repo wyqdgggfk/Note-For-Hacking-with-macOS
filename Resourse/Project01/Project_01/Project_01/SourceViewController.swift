@@ -25,4 +25,6 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         
         return vw
     }
+    
+    tableview
 }
