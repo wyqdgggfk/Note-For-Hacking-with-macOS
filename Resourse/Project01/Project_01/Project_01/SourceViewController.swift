@@ -15,10 +15,11 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         super.viewDidLoad()
         // Do view setup here.
     }
+    // How many rows will show up
     func numberOfRows(in tableView: NSTableView) -> Int {
         return 100
     }
-    
+    // what will be shown in every cell
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
         guard let vw = tableView.makeView(withIdentifier: tableColumn!.identifier, owner: self) as? NSTableCellView else {return nil}
         vw.textField?.stringValue = "Hello World"
@@ -26,5 +27,5 @@ class SourceViewController: NSViewController,NSTableViewDataSource,NSTableViewDe
         return vw
     }
     
-    tableview
+    
 }
