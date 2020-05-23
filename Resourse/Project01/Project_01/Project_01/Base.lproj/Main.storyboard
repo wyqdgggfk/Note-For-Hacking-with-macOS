@@ -730,8 +730,8 @@
         <scene sceneID="Zjj-iC-Ccr">
             <objects>
                 <viewController id="3bE-xP-ebW" customClass="SourceViewController" customModule="Project_01" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="lgL-9e-aab">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                    <view key="view" misplaced="YES" id="lgL-9e-aab">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLV-Gv-WZ8">
@@ -825,11 +825,11 @@
             <objects>
                 <viewController id="O0v-Zf-n7F" customClass="DetailViewController" customModule="Project_01" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="ubw-Oa-vzt">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="550" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hsu-zX-Jjp">
-                                <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                                <rect key="frame" x="0.0" y="0.0" width="550" height="300"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="HLe-yS-0Y5"/>
                             </imageView>
                         </subviews>
